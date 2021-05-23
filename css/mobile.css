@@ -27,91 +27,138 @@ button {
   box-shadow: 1px 5px 8px -4px #000000;
 }
 
-@media only screen and (max-width: 768px) {
-  header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  }
-  header div {
-    margin: 0 auto;
-  }
-  header div img.logo {
-    display: flex;
-    padding: 30px 0 20px;
-    width: 45%;
-    margin: 0 auto;
-  }
+div {
+  font-family: "Roboto", sans-serif;
+}
 
-  div input {
-    margin-top: 5px;
-    height: 50px;
-    border: 0;
-    width: 100%;
-    background: #eaeaea;
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
-    color: #353535;
-  }
-  div input::placeholder {
-    color: #353535;
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
-    content: "";
-  }
-  div input::-webkit-input-placeholder::before {
-    content: "";
-    background-image: url("../icons/map-marker-alt.svg");
-  }
-  div :focus {
-    outline: none;
-  }
-  div :focus::placeholder {
-    color: transparent;
-  }
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+header div {
+  margin: 0 auto;
+}
+header div img.logo {
+  display: flex;
+  padding: 30px 0 20px;
+  width: 45%;
+  margin: 0 auto;
+}
 
-  div.front {
-    margin: 0 auto;
-    background: #f6f6f6;
-    padding-top: 20px;
-    padding-bottom: 60px;
-  }
-  div.front p.title {
-    margin: 40px auto 10px;
-    text-align: center;
-    font-weight: 700;
-    font-size: 1.5rem;
-    width: 75%;
-  }
-  div.front p.sub-title {
-    width: 74%;
-    margin: 0 auto;
-    text-align: center;
-    color: black;
-    font-weight: 300;
-  }
-  div.front div {
-    display: flex;
-    justify-content: center;
-  }
-  div.front div button.btn {
-    border: 0;
-    padding: 20px 25px;
-    background: #e370da;
-    background: linear-gradient(180deg, #e370da 0%, #a25bdc 100%);
-    color: white;
-    margin-top: 30px;
-    text-align: center;
-    font-size: 1rem;
-    font-family: "Roboto", sans-serif;
-    border-radius: 35px;
-  }
+div input {
+  margin-top: 5px;
+  height: 50px;
+  border: 0;
+  width: 100%;
+  background: #eaeaea;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #353535;
+}
+div input::placeholder {
+  color: #353535;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  content: "";
+}
+div input::-webkit-input-placeholder::before {
+  content: "";
+  background-image: url("../icons/map-marker-alt.svg");
+}
+div :focus {
+  outline: none;
+}
+div :focus::placeholder {
+  color: transparent;
+}
+
+div.front {
+  margin: 0 auto;
+  background: #f6f6f6;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+div.front p.title {
+  margin: 40px auto 10px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+  width: 75%;
+}
+div.front p.sub-title {
+  width: 74%;
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+  font-weight: 300;
+}
+div.front div {
+  display: flex;
+  justify-content: center;
+}
+div.front div button.btn {
+  border: 0;
+  padding: 20px 25px;
+  background: #e370da;
+  background: linear-gradient(180deg, #e370da 0%, #a25bdc 100%);
+  color: white;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  border-radius: 35px;
+}
+
+section {
+  width: 90%;
+  margin: 0 auto;
+}
+section p.title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
+section div.group {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+section div.group div.choice {
+  display: flex;
+  align-items: center;
+  background: #f6f6f6;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+section div.group div.choice i {
+  color: #7e7e7e;
+}
+section div.group div.choice div.number {
+  position: relative;
+  right: 10px;
+  background: #9356DC;
+  border-radius: 50%;
+  color: #fff;
+  height: 25px;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+section div.group div.choice p {
+  padding: 30px;
+  font-weight: 700;
+}
+section div.group:hover {
+  background: #f5edff;
 }
 
 /*# sourceMappingURL=mobile.css.map */
