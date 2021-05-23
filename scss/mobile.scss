@@ -20,6 +20,8 @@ p {
 }
 button {
     cursor:pointer;
+    -webkit-box-shadow: 1px 5px 21px -4px #000000; 
+    box-shadow: 1px 5px 8px -4px #000000;
 }
 // colors
 $primary : #9356DC;
@@ -47,7 +49,7 @@ $grey: rgb(234, 234, 234);
         }
         
     }
-    
+    div {
     input {
         margin-top:5px;
         height:50px;
@@ -72,11 +74,18 @@ $grey: rgb(234, 234, 234);
             background-image:url('../icons/map-marker-alt.svg');
         }
     }
-    :focus {
+    :focus{
         outline:none;
     }
+    :focus::placeholder {
+        color:transparent;
+    }}
     div.front{
         margin:0 auto;
+        background: rgb(246 246 246);
+        padding-top: 20px;
+        padding-bottom:60px;
+        
         p.title {
             margin:40px auto 10px;
             text-align:center;

@@ -23,6 +23,8 @@ p {
 
 button {
   cursor: pointer;
+  -webkit-box-shadow: 1px 5px 21px -4px #000000;
+  box-shadow: 1px 5px 8px -4px #000000;
 }
 
 @media only screen and (max-width: 768px) {
@@ -43,7 +45,7 @@ button {
     margin: 0 auto;
   }
 
-  input {
+  div input {
     margin-top: 5px;
     height: 50px;
     border: 0;
@@ -55,7 +57,7 @@ button {
     font-weight: 700;
     color: #353535;
   }
-  input::placeholder {
+  div input::placeholder {
     color: #353535;
     text-align: center;
     font-family: "Roboto", sans-serif;
@@ -63,17 +65,22 @@ button {
     font-weight: 700;
     content: "";
   }
-  input::-webkit-input-placeholder::before {
+  div input::-webkit-input-placeholder::before {
     content: "";
     background-image: url("../icons/map-marker-alt.svg");
   }
-
-  :focus {
+  div :focus {
     outline: none;
+  }
+  div :focus::placeholder {
+    color: transparent;
   }
 
   div.front {
     margin: 0 auto;
+    background: #f6f6f6;
+    padding-top: 20px;
+    padding-bottom: 60px;
   }
   div.front p.title {
     margin: 40px auto 10px;
