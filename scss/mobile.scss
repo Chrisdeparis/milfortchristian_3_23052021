@@ -11,3 +11,13 @@ html {
 body {
     background:orange;
 }
+
+.container {
+    width:90%;
+    background:orangered;
+    margin:0 auto;
+}
+
+@media only screen and (max-width:768px) {
+
+}

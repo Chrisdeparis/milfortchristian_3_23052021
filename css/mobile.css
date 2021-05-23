@@ -12,4 +12,10 @@ html {
 body {
   background: orange;
 }
+
+.container {
+  width: 90%;
+  background: orangered;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=mobile.css.map */
