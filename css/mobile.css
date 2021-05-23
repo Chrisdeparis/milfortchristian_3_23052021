@@ -1,21 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Shrikhand&display=swap");
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-body {
-  background: orange;
+h1 {
+  font-family: "Shrikhand", cursive;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
-  width: 90%;
-  background: orangered;
   margin: 0 auto;
 }
+
+@media only screen and (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  header div {
+    margin: 0 auto;
+  }
+  header div img.logo {
+    display: flex;
+    padding: 30px 0 20px;
+    width: 45%;
+    margin: 0 auto;
+  }
+
+  input {
+    margin-top: 5px;
+    height: 40px;
+    border: 0;
+    width: 100%;
+    background: #eaeaea;
+  }
+  input::placeholder {
+    color: #353535;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    content: "";
+  }
+  input::-webkit-input-placeholder::before {
+    content: "";
+    background-image: url("../icons/map-marker-alt.svg");
+  }
+
+  div.front {
+    margin: 0 auto;
+  }
+  div.front p.title {
+    margin: 40px auto 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    width: 75%;
+  }
+  div.front p.sub-title {
+    width: 74%;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    font-weight: 300;
+  }
+  div.front button.btn {
+    border: 0;
+    padding: 20px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e370da+0,c466db+51,207cca+51,c466db+51,a25bdc+100 */
+    background: #e370da;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #e370da 0%, #c466db 51%, #207cca 51%, #c466db 51%, #a25bdc 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #e370da 0%, #c466db 51%, #207cca 51%, #c466db 51%, #a25bdc 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #e370da 0%, #c466db 51%, #207cca 51%, #c466db 51%, #a25bdc 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#e370da", endColorstr="#a25bdc",GradientType=1 );
+    /* IE6-9 fallback on horizontal gradient */
+    border-radius: 25px;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+  }
+}
+
 /*# sourceMappingURL=mobile.css.map */

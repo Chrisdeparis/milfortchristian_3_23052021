@@ -1,0 +1,24 @@
+{
+  "name": "milfortchristian_3_23052021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass scss/mobile.scss",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chrisdeparis/milfortchristian_3_23052021.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chrisdeparis/milfortchristian_3_23052021/issues"
+  },
+  "homepage": "https://github.com/Chrisdeparis/milfortchristian_3_23052021#readme",
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
