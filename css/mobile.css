@@ -119,6 +119,7 @@ div.front div button.btn {
 section {
   width: 90%;
   margin: 0 auto;
+  padding-bottom: 40px;
 }
 section p.title {
   font-weight: 700;
@@ -136,6 +137,7 @@ section div.group div.choice {
   background: #f6f6f6;
   border-radius: 20px;
   margin-bottom: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   cursor: pointer;
 }
 section div.group div.choice--bg:hover {
@@ -163,6 +165,44 @@ section div.group div.choice div.number {
 section div.group div.choice p {
   padding: 30px;
   font-weight: 700;
+}
+
+div.bg {
+  padding-top: 30px;
+  background: #f6f6f6;
+}
+div.bg section p.title {
+  margin-bottom: 20px;
+}
+div.bg section div.card {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+div.bg section div.card div.card-bg {
+  background: url("/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 190px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+div.bg section div.card div.card-bg div.new {
+  margin-top: 15px;
+  background: rgb;
+  width: fit-content;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  background: #99E2D0;
+  height: fit-content;
+  margin-right: 15px;
+  border-radius: 2px;
+  color: #008766;
+}
+div.bg section div.card div.card-description div.card-title p {
+  margin: 10px;
 }
 
 /*# sourceMappingURL=mobile.css.map */
