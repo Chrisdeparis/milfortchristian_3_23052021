@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass scss/mobile.scss",
+    "sass": "sass --watch scss/mobile.scss css/mobile.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
