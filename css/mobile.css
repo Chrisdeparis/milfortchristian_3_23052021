@@ -21,6 +21,10 @@ p {
   margin: 0 auto;
 }
 
+button {
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 768px) {
   header {
     display: flex;
@@ -41,10 +45,15 @@ p {
 
   input {
     margin-top: 5px;
-    height: 40px;
+    height: 50px;
     border: 0;
     width: 100%;
     background: #eaeaea;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #353535;
   }
   input::placeholder {
     color: #353535;
@@ -57,6 +66,10 @@ p {
   input::-webkit-input-placeholder::before {
     content: "";
     background-image: url("../icons/map-marker-alt.svg");
+  }
+
+  :focus {
+    outline: none;
   }
 
   div.front {
@@ -76,24 +89,21 @@ p {
     color: black;
     font-weight: 300;
   }
-  div.front button.btn {
+  div.front div {
+    display: flex;
+    justify-content: center;
+  }
+  div.front div button.btn {
     border: 0;
-    padding: 20px;
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e370da+0,c466db+51,207cca+51,c466db+51,a25bdc+100 */
+    padding: 20px 25px;
     background: #e370da;
-    /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #e370da 0%, #c466db 51%, #207cca 51%, #c466db 51%, #a25bdc 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #e370da 0%, #c466db 51%, #207cca 51%, #c466db 51%, #a25bdc 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #e370da 0%, #c466db 51%, #207cca 51%, #c466db 51%, #a25bdc 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#e370da", endColorstr="#a25bdc",GradientType=1 );
-    /* IE6-9 fallback on horizontal gradient */
-    border-radius: 25px;
+    background: linear-gradient(180deg, #e370da 0%, #a25bdc 100%);
     color: white;
     margin-top: 30px;
     text-align: center;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    border-radius: 35px;
   }
 }
 

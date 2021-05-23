@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Chrisdeparis/milfortchristian_3_23052021#readme",
   "dependencies": {
+    "compass": "^0.1.1",
     "node-sass": "^6.0.0"
   }
 }
