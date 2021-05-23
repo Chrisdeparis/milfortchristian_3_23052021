@@ -136,6 +136,13 @@ section div.group div.choice {
   background: #f6f6f6;
   border-radius: 20px;
   margin-bottom: 20px;
+  cursor: pointer;
+}
+section div.group div.choice--bg:hover {
+  background: #f5edff;
+}
+section div.group div.choice--bg:hover i {
+  color: #9356DC;
 }
 section div.group div.choice i {
   color: #7e7e7e;
@@ -156,9 +163,6 @@ section div.group div.choice div.number {
 section div.group div.choice p {
   padding: 30px;
   font-weight: 700;
-}
-section div.group:hover {
-  background: #f5edff;
 }
 
 /*# sourceMappingURL=mobile.css.map */
