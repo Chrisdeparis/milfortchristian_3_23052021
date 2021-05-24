@@ -104,7 +104,10 @@ div {
         
         div.menu__select {
             background:$grey2;
-            section {
+            section.section {
+                width:90%;
+                margin:0 auto;
+                padding-bottom:40px;
                 div.menu__top {
                     display: flex;
                     justify-content: space-between;
@@ -221,7 +224,7 @@ div {
         div {
             display:flex;
             justify-content:center;
-            button.btn {
+            div.btn {
             border:0;
             padding:20px 25px;
             background: rgb(227,112,218);
@@ -238,7 +241,7 @@ div {
             }
         }
     }
-    section {
+    div.section {
         width:90%;
         margin:0 auto;
         padding-bottom:40px;
@@ -293,7 +296,10 @@ div {
     div.restaurants {
         padding-top:20px;
         background:$grey2;
-        section {
+        div.section {
+            width:90%;
+            margin:0 auto;
+            padding-bottom:40px;
             p.title {
                 margin-bottom: 20px;
             }
