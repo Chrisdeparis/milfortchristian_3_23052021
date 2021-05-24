@@ -189,10 +189,7 @@ div {
             font-weight:700;
             content:'';
         }
-        &::-webkit-input-placeholder::before {
-            content:'';
-            background-image:url('../icons/map-marker-alt.svg');
-        }
+        
     }
     :focus{
         outline:none;   

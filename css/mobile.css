@@ -166,10 +166,6 @@ div input::placeholder {
   font-weight: 700;
   content: "";
 }
-div input::-webkit-input-placeholder::before {
-  content: "";
-  background-image: url("../icons/map-marker-alt.svg");
-}
 div :focus {
   outline: none;
 }
