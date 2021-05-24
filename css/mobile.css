@@ -346,6 +346,9 @@ footer ul li i.fas.fa-utensils {
 footer ul li i {
   margin-right: 10px;
 }
+footer ul li a {
+  color: white;
+}
 footer img {
   width: 110px;
   margin-bottom: 10px;
