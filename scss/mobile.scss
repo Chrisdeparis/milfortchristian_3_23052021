@@ -77,11 +77,30 @@ div {
     }
     div.menu {
         div.menu__img {
-            background:url("../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
-            background-size: cover;
-            background-position: center;
+            
             height:250px;
+            &.bg-palette {
+                background:url("../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+                background-size: cover;
+                background-position: center;
+            }
+            &.bg-delice {
+                background:url("../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+                background-size: cover;
+                background-position: center;
+            }
+            &.bg-french {
+                background:url("../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+                background-size: cover;
+                background-position: center;
+            }
+            &.bg-note {
+                background:url("../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+                background-size: cover;
+                background-position: center;
+            }
         }
+        
         div.menu__select {
             background:$grey2;
             section {
