@@ -304,10 +304,13 @@ div {
                         margin-right: 30px;
                         align-self:center;
                         i.fas.fa-heart {
+                            cursor:pointer;
                             position:relative;
-                            left:35px;
+                            left:38px;
                             opacity: 0;
                             color:$primary;
+                            font-size: 2rem;
+                            top:1px;
                         }
                         & i.fas.fa-heart:hover {
                             opacity:1;
