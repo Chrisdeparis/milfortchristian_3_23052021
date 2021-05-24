@@ -145,6 +145,8 @@ div {
                         border-radius:20px;
                         justify-content:space-between;
                         margin-bottom:10px;
+                        cursor:pointer;
+
                         .item__desc {
                             font-weight: 300;
                             padding:20px 10px;
@@ -165,11 +167,10 @@ div {
                         .selected__dish {
                             background:$tertiary;
                             display:flex;
-                            width: 70px;
+                            width: 60px;
                             justify-content: center;
                             border-top-right-radius: 20px;
                             border-bottom-right-radius: 20px;
-                            
                             
                             i{
                                 font-size:1.6rem;
@@ -177,8 +178,29 @@ div {
                                 align-self: center;
                             }
                         }
+                        &:hover {
+
+                        }
                         
 
+                    }
+                    
+                }
+                div.order {
+                    width: 50%;
+                    margin:30px auto;
+                    div.btn {
+                        border:0;
+                        padding:20px 25px;
+                        background: rgb(227,112,218);
+                        background: linear-gradient(180deg, rgba(227,112,218,1) 0%, rgba(162,91,220,1) 100%);
+                        color: white;
+                        margin-top:30px;
+                        text-align: center;
+                        font-size:1rem;
+                        font-family:'Roboto', sans-serif;
+                        border-radius:35px;
+                        box-shadow: 1px 5px 8px -4px #000000;
                     }
                 }
                 
@@ -239,16 +261,17 @@ div {
             display:flex;
             justify-content:center;
             div.btn {
-            border:0;
-            padding:20px 25px;
-            background: rgb(227,112,218);
-            background: linear-gradient(180deg, rgba(227,112,218,1) 0%, rgba(162,91,220,1) 100%);
-            color: white;
-            margin-top: 30px;
-            text-align: center;
-            font-size:1rem;
-            font-family:'Roboto', sans-serif;
-            border-radius:35px;
+                border:0;
+                padding:20px 25px;
+                background: rgb(227,112,218);
+                background: linear-gradient(180deg, rgba(227,112,218,1) 0%, rgba(162,91,220,1) 100%);
+                color: white;
+                margin-top: 30px;
+                text-align: center;
+                font-size:1rem;
+                font-family:'Roboto', sans-serif;
+                border-radius:35px;
+                box-shadow: 1px 5px 8px -4px #000000;
                 a{
                     color:white;
                 }
@@ -285,6 +308,7 @@ div {
                 }
                 i {
                     color:rgb(126,126,126);
+                    font-size:1.3rem;
                 }
                 div.number{
                     position: relative;
@@ -397,11 +421,11 @@ div {
                         }
                     }
                 }
-            }
+            }   
             
-        }
-        
+        }  
     }
+    
     footer {
         background:$footer;
         padding:30px 20px;
