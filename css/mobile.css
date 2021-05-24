@@ -207,6 +207,9 @@ div.explorer div button.btn {
   font-family: "Roboto", sans-serif;
   border-radius: 35px;
 }
+div.explorer div button.btn a {
+  color: white;
+}
 
 section {
   width: 90%;
