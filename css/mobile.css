@@ -89,41 +89,41 @@ div.menu div.menu__img.bg-note {
 div.menu div.menu__select {
   background: #f6f6f6;
 }
-div.menu div.menu__select section.section {
+div.menu div.menu__select div.section {
   width: 90%;
   margin: 0 auto;
   padding-bottom: 40px;
 }
-div.menu div.menu__select section.section div.menu__top {
+div.menu div.menu__select div.section div.menu__top {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-div.menu div.menu__select section.section div.menu__top h1.menu__title {
+div.menu div.menu__select div.section div.menu__top h1.menu__title {
   margin-top: 30px;
   font-size: 2rem;
 }
-div.menu div.menu__select section.section div.menu__top div.menu__heart {
+div.menu div.menu__select div.section div.menu__top div.menu__heart {
   font-size: 2rem;
 }
-div.menu div.menu__select section.section div.menu__top div.menu__heart i {
+div.menu div.menu__select div.section div.menu__top div.menu__heart i {
   position: relative;
   top: 13px;
 }
-div.menu div.menu__select section.section div.menu__item p.item__title {
+div.menu div.menu__select div.section div.menu__item p.item__title {
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: 300;
   margin-top: 30px;
   margin-bottom: 7px;
 }
-div.menu div.menu__select section.section div.menu__item div.item__underline {
+div.menu div.menu__select div.section div.menu__item div.item__underline {
   width: 30px;
   height: 3px;
   background: #99E2D0;
   margin-bottom: 20px;
 }
-div.menu div.menu__select section.section div.menu__item div.item__card {
+div.menu div.menu__select div.section div.menu__item div.item__card {
   display: flex;
   padding: 20px 10px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -131,14 +131,14 @@ div.menu div.menu__select section.section div.menu__item div.item__card {
   justify-content: space-between;
   margin-bottom: 10px;
 }
-div.menu div.menu__select section.section div.menu__item div.item__card .item__desc {
+div.menu div.menu__select div.section div.menu__item div.item__card .item__desc {
   font-weight: 300;
 }
-div.menu div.menu__select section.section div.menu__item div.item__card .item__desc p.desc__title {
+div.menu div.menu__select div.section div.menu__item div.item__card .item__desc p.desc__title {
   font-weight: bold;
   margin-bottom: 12px;
 }
-div.menu div.menu__select section.section div.menu__item div.item__card .item__price {
+div.menu div.menu__select div.section div.menu__item div.item__card .item__price {
   display: flex;
   align-self: flex-end;
   font-weight: bold;
