@@ -302,4 +302,24 @@ div.bg section div.card div.card__content div.card__heart i.fas.fa-heart:hover {
   opacity: 1;
 }
 
+footer {
+  background: #353535;
+  padding: 30px 20px;
+  color: white;
+}
+footer ul li {
+  list-style-type: none;
+  margin: 10px 0;
+}
+footer ul li i.fas.fa-utensils {
+  margin-right: 18px;
+}
+footer ul li i {
+  margin-right: 10px;
+}
+footer img {
+  width: 33%;
+  margin-bottom: 10px;
+}
+
 /*# sourceMappingURL=mobile.css.map */

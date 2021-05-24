@@ -12,6 +12,7 @@ $secondary:#FF79DA;
 $tertiary : #99E2D0;
 $grey: rgb(234, 234, 234);
 $grey2: rgb(246,246,246);
+$footer: rgb(53, 53, 53);
 html {
     scroll-behavior: smooth;
 }
@@ -321,6 +322,27 @@ div {
             
         }
         
+    }
+    footer {
+        background:$footer;
+        padding:30px 20px;
+        color:white;
+        ul {
+            li{
+                list-style-type: none;
+                margin:10px 0;
+                i.fas.fa-utensils{
+                    margin-right:18px;
+                }
+                i{
+                    margin-right:10px;
+                }
+            }
+        }
+        img {
+            width:33%;
+            margin-bottom:10px;
+        }
     }
     
     
