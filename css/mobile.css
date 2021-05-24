@@ -178,7 +178,7 @@ div.explorer {
   padding-top: 20px;
   padding-bottom: 60px;
 }
-div.explorer p.title {
+div.explorer h2.title {
   margin: 40px auto 10px;
   text-align: center;
   font-weight: 700;
