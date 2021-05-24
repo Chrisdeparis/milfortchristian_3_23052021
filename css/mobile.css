@@ -125,7 +125,6 @@ div.menu div.menu__select div.section div.menu__item div.item__underline {
 }
 div.menu div.menu__select div.section div.menu__item div.item__card {
   display: flex;
-  padding: 20px 10px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border-radius: 20px;
   justify-content: space-between;
@@ -133,6 +132,7 @@ div.menu div.menu__select div.section div.menu__item div.item__card {
 }
 div.menu div.menu__select div.section div.menu__item div.item__card .item__desc {
   font-weight: 300;
+  padding: 20px 10px;
 }
 div.menu div.menu__select div.section div.menu__item div.item__card .item__desc p.desc__title {
   font-weight: bold;
@@ -144,6 +144,20 @@ div.menu div.menu__select div.section div.menu__item div.item__card .item__price
   font-weight: bold;
   color: #353535;
   margin-right: 30px;
+  padding: 20px 0px;
+}
+div.menu div.menu__select div.section div.menu__item div.item__card .selected__dish {
+  background: #99E2D0;
+  display: flex;
+  width: 70px;
+  justify-content: center;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+div.menu div.menu__select div.section div.menu__item div.item__card .selected__dish i {
+  font-size: 1.6rem;
+  color: white;
+  align-self: center;
 }
 
 div input {
