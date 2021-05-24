@@ -176,6 +176,7 @@ div.menu div.menu__select div.section div.order div.btn {
   font-family: "Roboto", sans-serif;
   border-radius: 35px;
   box-shadow: 1px 5px 8px -4px #000000;
+  cursor: pointer;
 }
 
 div input {
