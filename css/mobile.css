@@ -92,6 +92,12 @@ div.menu div.menu__select section div.menu__item p.item__title {
   text-transform: uppercase;
   font-weight: 300;
   margin-top: 30px;
+  margin-bottom: 7px;
+}
+div.menu div.menu__select section div.menu__item div.item__underline {
+  width: 30px;
+  height: 3px;
+  background: #99E2D0;
   margin-bottom: 20px;
 }
 div.menu div.menu__select section div.menu__item div.item__card {
@@ -100,6 +106,7 @@ div.menu div.menu__select section div.menu__item div.item__card {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border-radius: 20px;
   justify-content: space-between;
+  margin-bottom: 10px;
 }
 div.menu div.menu__select section div.menu__item div.item__card .item__desc {
   font-weight: 300;
