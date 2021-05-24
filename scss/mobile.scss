@@ -47,7 +47,7 @@ div {
 
 
 
-//@media only screen and (max-width:768px) {
+@media only screen and (max-width:768px) {
     header {
         display:flex;
         flex-direction:column;
@@ -239,7 +239,7 @@ div {
     }}
     div.explorer{
         margin:0 auto;
-        background: rgb(246 246 246);
+        background: rgb(246, 246, 246);
         padding-top: 20px;
         padding-bottom:60px;
         
@@ -454,4 +454,4 @@ div {
     }
     
     
-//}
+}

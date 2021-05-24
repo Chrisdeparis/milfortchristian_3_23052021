@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch scss/mobile.scss css/mobile.css",
+    "desktop": "sass --watch scss/desktop.scss css/desktop.css",
+    "tablet": "sass --watch scss/tablet.scss css/tablet.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
