@@ -247,22 +247,22 @@ div.explorer div div.btn a {
   color: white;
 }
 
-div.section {
+div.section.operation {
   width: 90%;
   margin: 0 auto;
   padding-bottom: 40px;
 }
-div.section p.title {
+div.section.operation p.title {
   font-weight: 700;
   font-size: 1.5rem;
   margin-top: 30px;
 }
-div.section div.group {
+div.section.operation div.group {
   display: flex;
   flex-direction: column;
   margin-top: 30px;
 }
-div.section div.group div.choice {
+div.section.operation div.group div.choice {
   display: flex;
   align-items: center;
   background: #f6f6f6;
@@ -272,17 +272,17 @@ div.section div.group div.choice {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   cursor: pointer;
 }
-div.section div.group div.choice--restaurants:hover {
+div.section.operation div.group div.choice--bg:hover {
   background: #f5edff;
 }
-div.section div.group div.choice--restaurants:hover i {
+div.section.operation div.group div.choice--bg:hover i {
   color: #9356DC;
 }
-div.section div.group div.choice i {
+div.section.operation div.group div.choice i {
   color: #7e7e7e;
   font-size: 1.3rem;
 }
-div.section div.group div.choice div.number {
+div.section.operation div.group div.choice div.number {
   position: relative;
   right: 10px;
   background: #9356DC;
@@ -295,7 +295,7 @@ div.section div.group div.choice div.number {
   align-items: center;
   margin-right: 10px;
 }
-div.section div.group div.choice p {
+div.section.operation div.group div.choice p {
   padding: 30px;
   font-weight: 700;
 }
