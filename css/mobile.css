@@ -223,6 +223,27 @@ div.bg section div.card div.card__img--note div.card__new {
   border-radius: 2px;
   color: #008766;
 }
+div.bg section div.card div.card__img--french {
+  display: flex;
+  justify-content: flex-end;
+  background: url("../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 190px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+div.bg section div.card div.card__img--french div.card__new {
+  margin-top: 15px;
+  width: fit-content;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  background: #99E2D0;
+  height: fit-content;
+  margin-right: 15px;
+  border-radius: 2px;
+  color: #008766;
+}
 div.bg section div.card div.card__content {
   display: flex;
   justify-content: space-between;

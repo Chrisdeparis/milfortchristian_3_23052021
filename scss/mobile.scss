@@ -231,6 +231,27 @@ $grey2: rgb(246,246,246);
                             color:rgb(0, 135, 102);
                         }
                     }
+                    &--french {
+                        display: flex;
+                        justify-content: flex-end;
+                        background:url("../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+                        background-size:cover;
+                        background-position:center;
+                        height:190px;
+                        border-top-left-radius:20px;
+                        border-top-right-radius: 20px;
+                        div.card__new {
+                            margin-top: 15px;
+                            width: fit-content;
+                            padding: 5px 10px;
+                            font-size: 0.9rem;
+                            background:$tertiary;
+                            height: fit-content;
+                            margin-right: 15px;
+                            border-radius:2px;
+                            color:rgb(0, 135, 102);
+                        }
+                    }
 
                     
                 }
