@@ -65,10 +65,54 @@ div.menu div.menu__img {
   background-position: center;
   height: 250px;
 }
-div.menu div.menu__select section h1 {
+div.menu div.menu__select {
+  background: #f6f6f6;
+}
+div.menu div.menu__select section div.menu__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div.menu div.menu__select section div.menu__top h1.menu__title {
   margin-top: 30px;
   font-size: 2rem;
 }
+div.menu div.menu__select section div.menu__top div.menu__heart {
+  font-size: 2rem;
+}
+div.menu div.menu__select section div.menu__top div.menu__heart i {
+  position: relative;
+  top: 13px;
+}
+div.menu div.menu__select section div.menu__item p.item__title {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+div.menu div.menu__select section div.menu__item div.item__card {
+  display: flex;
+  padding: 20px 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 20px;
+  justify-content: space-between;
+}
+div.menu div.menu__select section div.menu__item div.item__card .item__desc {
+  font-weight: 300;
+}
+div.menu div.menu__select section div.menu__item div.item__card .item__desc p.desc__title {
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+div.menu div.menu__select section div.menu__item div.item__card .item__price {
+  display: flex;
+  align-self: flex-end;
+  font-weight: bold;
+  color: #353535;
+  margin-right: 30px;
+}
+
 div input {
   margin-top: 5px;
   height: 50px;
@@ -100,31 +144,31 @@ div :focus::placeholder {
   color: transparent;
 }
 
-div.front {
+div.explorer {
   margin: 0 auto;
   background: #f6f6f6;
   padding-top: 20px;
   padding-bottom: 60px;
 }
-div.front p.title {
+div.explorer p.title {
   margin: 40px auto 10px;
   text-align: center;
   font-weight: 700;
   font-size: 1.5rem;
   width: 75%;
 }
-div.front p.sub-title {
+div.explorer p.desc {
   width: 74%;
   margin: 0 auto;
   text-align: center;
   color: black;
   font-weight: 300;
 }
-div.front div {
+div.explorer div {
   display: flex;
   justify-content: center;
 }
-div.front div button.btn {
+div.explorer div button.btn {
   border: 0;
   padding: 20px 25px;
   background: #e370da;
