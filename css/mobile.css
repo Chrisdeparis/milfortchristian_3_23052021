@@ -51,9 +51,10 @@ header div a {
   align-self: center;
 }
 header div a i.fas.fa-arrow-left {
-  font-size: 1.8rem;
+  font-size: 1.1rem;
   align-self: center;
   margin-left: 20px;
+  color: #353535;
 }
 header div img.logo {
   display: flex;
@@ -264,7 +265,7 @@ section div.group div.choice p {
 }
 
 div.restaurants {
-  padding-top: 30px;
+  padding-top: 20px;
   background: #f6f6f6;
 }
 div.restaurants section p.title {
