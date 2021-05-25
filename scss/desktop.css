@@ -72,7 +72,7 @@
     display: -ms-flexbox;
     display: flex;
     padding: 20px 0;
-    width: 45%;
+    max-width: 45%;
     margin: 0 auto;
   }
   .container div.menu div.menu__img {
