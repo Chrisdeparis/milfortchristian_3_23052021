@@ -311,7 +311,7 @@
         }
 
         div.section.operation {
-            width: 90%;
+            width: 80%;
             margin: 0 auto;
             padding-bottom: 40px;
 
@@ -498,11 +498,20 @@
             background: $footer;
             padding: 30px 20px;
             color: white;
+            
+            
 
-            ul {
+            ul.grid-footer {
+                display: grid;
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
+                    grid-template-rows: 1fr;
+                    gap: 30px 0px;
+                    grid-template-areas:
+                        ". . . .";
                 li {
                     list-style-type: none;
                     margin: 10px 0;
+                    
 
                     i.fas.fa-utensils {
                         margin-right: 18px;

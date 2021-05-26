@@ -318,7 +318,7 @@
     color: white;
   }
   .container div.section.operation {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     padding-bottom: 40px;
   }
@@ -522,17 +522,27 @@
     padding: 30px 20px;
     color: white;
   }
-  .container footer ul li {
+  .container footer ul.grid-footer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    gap: 30px 0px;
+        grid-template-areas: ". . . .";
+  }
+  .container footer ul.grid-footer li {
     list-style-type: none;
     margin: 10px 0;
   }
-  .container footer ul li i.fas.fa-utensils {
+  .container footer ul.grid-footer li i.fas.fa-utensils {
     margin-right: 18px;
   }
-  .container footer ul li i {
+  .container footer ul.grid-footer li i {
     margin-right: 10px;
   }
-  .container footer ul li a {
+  .container footer ul.grid-footer li a {
     color: white;
   }
   .container footer img {
