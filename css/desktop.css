@@ -20,6 +20,31 @@
     gap: 30px 30px;
     grid-template-areas: ". ." ". .";
   }
+
+  footer {
+    padding: 30px 20px;
+    color: white;
+  }
+  footer ul {
+    display: flex;
+  }
+  footer ul li {
+    list-style-type: none;
+    margin: 10px 30px !important;
+  }
+  footer ul li i.fas.fa-utensils {
+    margin-right: 18px;
+  }
+  footer ul li i {
+    margin-right: 10px;
+  }
+  footer ul li a {
+    color: white;
+  }
+  footer img {
+    width: 110px;
+    margin-bottom: 10px;
+  }
 }
 
 /*# sourceMappingURL=desktop.css.map */

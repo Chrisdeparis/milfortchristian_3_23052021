@@ -473,12 +473,10 @@ div.restaurants div.section div.card div.card__content div.card__heart i.fas.fa-
 
 header.header div.header__img img.header__logo {
   width: 16%;
-  position: relative;
-  right: 50px;
 }
 
 .menu .menu__select .menu__section {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   padding-bottom: 40px;
 }

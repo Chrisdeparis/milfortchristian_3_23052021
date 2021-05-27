@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../scss/tablet.scss"],"names":[],"mappings":"AAAA;EACI;IACI;;;AAIR;EACI;IACI","file":"tablet.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/tablet.scss"],"names":[],"mappings":"AAAA;EACI;IACI;;;AAIR;EACI;IACI;;;EAEJ;IACI;IACA;IACA;IACA;IACA,qBACI","file":"tablet.css"}

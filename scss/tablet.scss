@@ -8,4 +8,13 @@
     .container {
         width:100%;
     }
+    div.grid-restaurant {
+        display: grid;
+        grid-template-columns: 1fr 1fr!important;
+        grid-template-rows: 1fr 1fr!important;
+        gap: 30px 30px;
+        grid-template-areas:
+            ". ."
+            ". .";
+    }
 }
