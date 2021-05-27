@@ -1,65 +1,95 @@
-.menu { 
+.menu {
+  .menu__img {
+  }
 
-	.menu__img { 
+  .menu__select {
+    .menu__section {
+      width: 90%;
+      margin: 0 auto;
+      padding-bottom: 40px;
+      .menu__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .menu__title {
+          margin-top: 30px;
+          font-size: 2rem;
+          font-family: "Shrikhand", cursive;
+        }
 
-	}
+        .menu__heart {
+          align-self: flex-end;
+          position:relative;
+          bottom:10px;
+          .far {
+            font-size:1.9rem
+          }
+        }
+      }
 
-	.menu__select { 
+      .menu__item {
+        .item__title {
+          font-size: 1rem;
+          text-transform: uppercase;
+          font-weight: 300;
+          margin-top: 30px;
+          margin-bottom: 7px;
+        }
 
-		.section { 
+        .item__underline {
+          width: 30px;
+          height: 3px;
+          background: #99e2d0;
+          margin-bottom: 20px;
+        }
 
-			.menu__top { 
+        .item__card {
+          display: flex;
+          box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+          border-radius: 20px;
+          justify-content: space-between;
+          margin-bottom: 10px;
+          cursor: pointer;
+          .item__desc {
+            font-weight: 300;
+            padding: 20px 10px;
+            .desc__title {
+              font-weight: bold;
+              margin-bottom: 12px;
+            }
 
-				.menu__title { 
-                    margin-top: 30px;
-                    font-size: 2rem;
-                    font-family: 'Shrikhand', cursive;
+            p {
+            }
+          }
 
-				}
+          .item__price {
+            display: flex;
+            align-self: flex-end;
+            font-weight: bold;
+            color: #353535;
+            margin-right: 30px;
+            padding: 20px 0px;
+          }
+        }
+      }
 
-				.menu__heart { 
-
-					.far { 
-
-					}
-				}
-			}
-
-			.menu__item { 
-
-				.item__title { 
-
-				}
-
-				.item__underline { 
-
-				}
-
-				.item__card { 
-
-					.item__desc { 
-
-						.desc__title { 
-
-						}
-
-						p { 
-
-						}
-					}
-
-					.item__price { 
-
-					}
-				}
-			}
-
-			.order { 
-
-				.btn { 
-
-				}
-			}
-		}
-	}
+      .order {
+        .order__btn {
+          padding: 15px 25px;
+          border: 0;
+          background: #e370da;
+          background: linear-gradient(180deg, #e370da 0%, #a25bdc 100%);
+          color: white;
+          text-align: center;
+          font-size: 1rem;
+          font-family: "Roboto", sans-serif;
+          border-radius: 35px;
+          box-shadow: 1px 5px 8px -4px #000000;
+          cursor: pointer;
+          width: 55%;
+          margin: 30px auto;
+        }
+      }
+    }
+  }
 }

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Shrikhand&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -471,11 +471,82 @@ div.restaurants div.section div.card div.card__content div.card__heart i.fas.fa-
   opacity: 1;
 }
 
-.menu .menu__select .section .menu__top .menu__title {
+.menu .menu__select .menu__section {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+.menu .menu__select .menu__section .menu__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu .menu__select .menu__section .menu__top .menu__title {
   margin-top: 30px;
   font-size: 2rem;
   font-family: "Shrikhand", cursive;
 }
+.menu .menu__select .menu__section .menu__top .menu__heart {
+  align-self: flex-end;
+  position: relative;
+  bottom: 10px;
+}
+.menu .menu__select .menu__section .menu__top .menu__heart .far {
+  font-size: 1.9rem;
+}
+.menu .menu__select .menu__section .menu__item .item__title {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-top: 30px;
+  margin-bottom: 7px;
+}
+.menu .menu__select .menu__section .menu__item .item__underline {
+  width: 30px;
+  height: 3px;
+  background: #99e2d0;
+  margin-bottom: 20px;
+}
+.menu .menu__select .menu__section .menu__item .item__card {
+  display: flex;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 20px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.menu .menu__select .menu__section .menu__item .item__card .item__desc {
+  font-weight: 300;
+  padding: 20px 10px;
+}
+.menu .menu__select .menu__section .menu__item .item__card .item__desc .desc__title {
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.menu .menu__select .menu__section .menu__item .item__card .item__price {
+  display: flex;
+  align-self: flex-end;
+  font-weight: bold;
+  color: #353535;
+  margin-right: 30px;
+  padding: 20px 0px;
+}
+.menu .menu__select .menu__section .order .order__btn {
+  padding: 15px 25px;
+  border: 0;
+  background: #e370da;
+  background: linear-gradient(180deg, #e370da 0%, #a25bdc 100%);
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  border-radius: 35px;
+  box-shadow: 1px 5px 8px -4px #000000;
+  cursor: pointer;
+  width: 55%;
+  margin: 30px auto;
+}
+
 @media only screen and (max-width: 768px) {
   .container {
     width: 100%;
