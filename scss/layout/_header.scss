@@ -1,0 +1,27 @@
+header.header {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    margin:0 auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    div.header__img {
+        display:flex;
+        
+        a{
+            align-self:center;
+            i.fas.fa-arrow-left{
+                font-size:1.1rem;
+                align-self:center;
+                margin-left:20px;
+                color:$footer;
+            }
+        }
+        
+        img.header__logo {
+            display:flex;
+            padding:20px 0;
+            max-width:45%;
+            margin:0 auto;
+        }
+    }
+}

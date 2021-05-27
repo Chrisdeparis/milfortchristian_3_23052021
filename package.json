@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "concurrently \"npm run sass\" \"npm run desktop\" \"npm run tablet\"",
     "sass": "sass --watch scss/mobile.scss css/mobile.css",
     "desktop": "sass --watch scss/desktop.scss css/desktop.css",
     "tablet": "sass --watch scss/tablet.scss css/tablet.css",

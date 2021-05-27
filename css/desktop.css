@@ -161,7 +161,7 @@
   }
   .container div.menu div.menu__select div.section div.order div.btn {
     border: 0;
-    padding: 20px 25px;
+    padding: 15px 25px;
     background: #e370da;
     background: linear-gradient(180deg, #e370da 0%, #a25bdc 100%);
     color: white;
@@ -205,14 +205,14 @@
     padding-top: 20px;
     padding-bottom: 60px;
   }
-  .container div.explorer h2.title {
+  .container div.explorer__title {
     margin: 40px auto 10px;
     text-align: center;
     font-weight: 700;
     font-size: 1.5rem;
     width: 75%;
   }
-  .container div.explorer p.desc {
+  .container div.explorer__desc {
     width: 74%;
     margin: 0 auto;
     text-align: center;
@@ -251,6 +251,7 @@
   }
   .container div.section.operation div.group {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     margin-top: 30px;
   }
@@ -398,17 +399,24 @@
     padding: 30px 20px;
     color: white;
   }
-  .container footer ul li {
+  .container footer ul.grid-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 30px 0px;
+    grid-template-areas: ". . . .";
+  }
+  .container footer ul.grid-footer li {
     list-style-type: none;
     margin: 10px 0;
   }
-  .container footer ul li i.fas.fa-utensils {
+  .container footer ul.grid-footer li i.fas.fa-utensils {
     margin-right: 18px;
   }
-  .container footer ul li i {
+  .container footer ul.grid-footer li i {
     margin-right: 10px;
   }
-  .container footer ul li a {
+  .container footer ul.grid-footer li a {
     color: white;
   }
   .container footer img {

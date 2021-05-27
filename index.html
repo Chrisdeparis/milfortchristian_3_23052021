@@ -1,41 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ohmyfood</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
-  <link rel="stylesheet" href="scss/tablet.css" />
-  <link rel="stylesheet" href="scss/desktop.css" />
-  <link rel="stylesheet" href="scss/mobile.css" />
+  <!-- <link rel="stylesheet" href="css/tablet.css" />
+  <link rel="stylesheet" href="css/desktop.css" /> -->
+  <link rel="stylesheet" href="css/mobile.css" />
 </head>
-
 <body>
   <div class="container">
-    <header>
-      <div>
-        <img class="logo" src="images/logo/ohmyfood.png" alt="" />
+    <header class="header">
+      <div class=header__img>
+        <img class="header__logo" src="images/logo/ohmyfood.png" alt="" />
       </div>
     </header>
     <div class="search">
-      <input type="text" placeholder="Paris, Belleville" />
+      <div class="search__title">
+      <i class="fas fa-map-marker-alt"></i>
+      Paris, Belleville
+      </div>
+      <!-- <input  type="text" placeholder="Paris, Belleville" /> -->
+      
     </div>
     <div class="explorer">
-      <h2 class="title">Réservez le menu qui vous convient</h2>
-      <p class="desc">
+      <h1 class="explorer__title">Réservez le menu qui vous convient</h1>
+      <p class="explorer__desc">
         Découvrez les restaurants d'exception, sélectionnés par nos soins
       </p>
-      <div>
+      <div class="explorer__link">
         <a href="#restaurants">
-          <div class="btn">Explorer nos restaurants</div>
+          <div class="explorer__btn">Explorer nos restaurants</div>
         </a>
       </div>
     </div>
-    <div class="section operation">
-      <p class="title">Fonctionnement</p>
-      <div class="group">
+    <div class="operation">
+      <p class="operation__title">Fonctionnement</p>
+      <div class="operation__group">
         <div class="choice choice--bg">
           <div class="number">1</div>
           <i class="fas fa-mobile-alt"></i>

@@ -79,6 +79,30 @@ div {
     width: 45%;
     margin: 0 auto;
   }
+  div.search div.recherche {
+    margin-top: 5px;
+    height: 50px;
+    border: 0;
+    width: 100%;
+    background: #eaeaea;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #353535;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  div.search div.recherche i {
+    margin-right: 10px;
+  }
   div.menu div.menu__img {
     height: 250px;
   }
@@ -215,65 +239,6 @@ div {
     -webkit-box-shadow: 1px 5px 8px -4px #000000;
             box-shadow: 1px 5px 8px -4px #000000;
     cursor: pointer;
-  }
-  div input {
-    margin-top: 5px;
-    height: 50px;
-    border: 0;
-    width: 100%;
-    background: #eaeaea;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
-    color: #353535;
-  }
-  div input::-webkit-input-placeholder {
-    color: #353535;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
-    content: '';
-  }
-  div input:-ms-input-placeholder {
-    color: #353535;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
-    content: '';
-  }
-  div input::-ms-input-placeholder {
-    color: #353535;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
-    content: '';
-  }
-  div input::placeholder {
-    color: #353535;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
-    content: '';
-  }
-  div :focus {
-    outline: none;
-  }
-  div :focus::-webkit-input-placeholder {
-    color: transparent;
-  }
-  div :focus:-ms-input-placeholder {
-    color: transparent;
-  }
-  div :focus::-ms-input-placeholder {
-    color: transparent;
-  }
-  div :focus::placeholder {
-    color: transparent;
   }
   div.explorer {
     margin: 0 auto;

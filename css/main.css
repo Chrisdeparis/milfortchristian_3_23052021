@@ -95,26 +95,26 @@ a {
   text-decoration: none;
 }
 
-header.header {
+header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-header.header div.header__img {
+header div {
   display: flex;
 }
-header.header div.header__img a {
+header div a {
   align-self: center;
 }
-header.header div.header__img a i.fas.fa-arrow-left {
+header div a i.fas.fa-arrow-left {
   font-size: 1.1rem;
   align-self: center;
   margin-left: 20px;
   color: #353535;
 }
-header.header div.header__img img.header__logo {
+header div img.logo {
   display: flex;
   padding: 20px 0;
   max-width: 45%;
@@ -144,7 +144,7 @@ footer img {
   margin-bottom: 10px;
 }
 
-div.search div.search__title {
+div.search div.recherche {
   margin-top: 5px;
   height: 50px;
   border: 0;
@@ -159,7 +159,7 @@ div.search div.search__title {
   justify-content: center;
   align-items: center;
 }
-div.search div.search__title i {
+div.search div.recherche i {
   margin-right: 10px;
 }
 
@@ -285,26 +285,25 @@ div.explorer {
   padding-top: 20px;
   padding-bottom: 60px;
 }
-div.explorer h1.explorer__title {
-  font-family: "Roboto", sans-serif;
+div.explorer h2.title {
   margin: 40px auto 10px;
   text-align: center;
   font-weight: 700;
   font-size: 1.5rem;
   width: 75%;
 }
-div.explorer p.explorer__desc {
+div.explorer p.desc {
   width: 74%;
   margin: 0 auto;
   text-align: center;
   color: black;
   font-weight: 300;
 }
-div.explorer div.explorer__link {
+div.explorer div {
   display: flex;
   justify-content: center;
 }
-div.explorer div.explorer__link div.explorer__btn {
+div.explorer div div.btn {
   border: 0;
   padding: 15px 25px;
   background: #e370da;
@@ -317,26 +316,26 @@ div.explorer div.explorer__link div.explorer__btn {
   border-radius: 35px;
   box-shadow: 1px 5px 8px -4px #000000;
 }
-div.explorer div.explorer__link div.explorer__btn a {
+div.explorer div div.btn a {
   color: white;
 }
 
-div.operation {
+div.section.operation {
   width: 90%;
   margin: 0 auto;
   padding-bottom: 40px;
 }
-div.operation p.operation__title {
+div.section.operation p.title {
   font-weight: 700;
   font-size: 1.5rem;
   margin-top: 30px;
 }
-div.operation div.operation__group {
+div.section.operation div.group {
   display: flex;
   flex-direction: column;
   margin-top: 30px;
 }
-div.operation div.operation__group .choice {
+div.section.operation div.group div.choice {
   display: flex;
   align-items: center;
   background: #f6f6f6;
@@ -346,17 +345,17 @@ div.operation div.operation__group .choice {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   cursor: pointer;
 }
-div.operation div.operation__group .choice--bg:hover {
+div.section.operation div.group div.choice--bg:hover {
   background: #f5edff;
 }
-div.operation div.operation__group .choice--bg:hover i {
+div.section.operation div.group div.choice--bg:hover i {
   color: #9356DC;
 }
-div.operation div.operation__group .choice i {
+div.section.operation div.group div.choice i {
   color: #7e7e7e;
   font-size: 1.3rem;
 }
-div.operation div.operation__group .choice div.number {
+div.section.operation div.group div.choice div.number {
   position: relative;
   right: 10px;
   background: #9356DC;
@@ -369,8 +368,8 @@ div.operation div.operation__group .choice div.number {
   align-items: center;
   margin-right: 10px;
 }
-div.operation div.operation__group .choice p {
-  padding: 25px;
+div.section.operation div.group div.choice p {
+  padding: 30px;
   font-weight: 700;
 }
 
@@ -502,4 +501,4 @@ div {
   font-family: "Roboto", sans-serif;
 }
 
-/*# sourceMappingURL=mobile.css.map */
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,25 @@
+@media only screen and (max-width:768px) {
+    .container {width:100%;}
+}
+
+@media only screen and (min-width: 769px) {
+    div.restaurants {
+        div.section.operation {
+            div.group {
+                display: flex;
+                flex-direction: row;
+            }
+            
+            div.grid-restaurant {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                gap: 30px 30px;
+                grid-template-areas:
+                    ". ."
+                    ". .";
+            }
+        }
+        
+    }
+}
