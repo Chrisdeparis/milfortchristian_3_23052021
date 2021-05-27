@@ -544,7 +544,7 @@ div.restaurants div.section div.card div.card__content div.card__heart i.fas.fa-
   box-shadow: 1px 5px 8px -4px #000000;
   cursor: pointer;
   width: 55%;
-  margin: 30px auto;
+  margin: 40px auto;
 }
 
 @media only screen and (max-width: 768px) {
