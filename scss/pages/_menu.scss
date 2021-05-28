@@ -4,7 +4,7 @@ header.header div.header__img img.header__logo {
 
 .menu {
   background: rgb(246, 246, 246);
-  .menu__img.bg-french, .menu__img.bg-palette, .menu__img.bg-french, .menu__img.bg-delice {
+  .menu__img.bg-french, .menu__img.bg-palette, .menu__img.bg-note, .menu__img.bg-delice {
     height:330px;
   }
 
@@ -21,7 +21,7 @@ header.header div.header__img img.header__logo {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        .grid-menu {
+        .menu__grid{
           display: grid;
           grid-template-columns: 1fr 1fr 1fr;
           grid-template-rows: 1fr;

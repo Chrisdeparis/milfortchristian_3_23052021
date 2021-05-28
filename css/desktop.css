@@ -1,4 +1,4 @@
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
   header.header div.header__img img.header__logo {
     max-width: 20% !important;
   }
@@ -27,15 +27,18 @@
     gap: 30px 30px;
         grid-template-areas: ". ." ". .";
   }
-  div.grid-menu {
+  div.menu__grid {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
     -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;
-    gap: 0px 30px;
+    gap: 0px 10px;
         grid-template-areas: ". . .";
+  }
+  div.order div.order__btn {
+    max-width: 30%;
   }
   footer {
     padding: 30px 20px;
