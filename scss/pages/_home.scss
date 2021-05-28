@@ -250,15 +250,20 @@ div.operation {
 div.restaurants {
   padding-top: 20px;
   background: $grey2;
-  div.section {
+  div.restaurants__section {
     width: 90%;
     margin: 0 auto;
     padding-bottom: 40px;
-    p.title {
+    p.restaurant__title {
       font-weight: 700;
       font-size: 1.5rem;
       margin-top: 30px;
       margin-bottom: 20px;
+    }
+    div.grid__restaurant {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
     }
     div.card {
       border-radius: 20px;

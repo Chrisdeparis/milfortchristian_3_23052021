@@ -1,4 +1,4 @@
-@media only screen and (min-width: 769px) and (max-width: 1200px) {
+@media only screen and (min-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1), only screen and (min-width: 768px) and (orientation: portrait) and (min-resolution: 1dppx) {
   header.header div.header__img img.header__logo {
     max-width: 20% !important;
   }
@@ -26,16 +26,6 @@
         grid-template-rows: 1fr 1fr;
     gap: 30px 30px;
         grid-template-areas: ". ." ". .";
-  }
-  div.menu__grid {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
-    -ms-grid-rows: 1fr;
-        grid-template-rows: 1fr;
-    gap: 0px 10px;
-        grid-template-areas: ". . .";
   }
   div.order div.order__btn {
     max-width: 30%;
@@ -65,5 +55,15 @@
   footer img {
     width: 110px;
     margin-bottom: 10px;
+  }
+  .menu .menu__select .menu__section div.menu__grid {
+    display: -ms-grid !important;
+    display: grid !important;
+    -ms-grid-columns: 1fr 1fr 1fr !important;
+        grid-template-columns: 1fr 1fr 1fr !important;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    gap: 0px 10px;
+        grid-template-areas: ". . .";
   }
 }

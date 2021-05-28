@@ -21,14 +21,7 @@ header.header div.header__img img.header__logo {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        .menu__grid{
-          display: grid;
-          grid-template-columns: 1fr 1fr 1fr;
-          grid-template-rows: 1fr;
-          gap: 0px 30px;
-          grid-template-areas:
-            ". . .";
-        }
+        
 
         .menu__title {
           margin-top: 30px;
@@ -48,6 +41,14 @@ header.header div.header__img img.header__logo {
             right: 20px;
           }
         }
+      }
+      .menu__grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 30px;
+        grid-template-areas:
+          ". . .";
       }
 
       .menu__item {

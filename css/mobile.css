@@ -143,7 +143,7 @@ header.header div.header__img img.header__logo {
   display: -ms-flexbox;
   display: flex;
   padding: 20px 0;
-  max-width: 45%;
+  max-width: 25%;
   margin: 0 auto;
 }
 
@@ -494,20 +494,28 @@ div.restaurants {
   background: #f6f6f6;
 }
 
-div.restaurants div.section {
+div.restaurants div.restaurants__section {
   width: 90%;
   margin: 0 auto;
   padding-bottom: 40px;
 }
 
-div.restaurants div.section p.title {
+div.restaurants div.restaurants__section p.restaurant__title {
   font-weight: 700;
   font-size: 1.5rem;
   margin-top: 30px;
   margin-bottom: 20px;
 }
 
-div.restaurants div.section div.card {
+div.restaurants div.restaurants__section div.grid__restaurant {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+div.restaurants div.restaurants__section div.card {
   border-radius: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -521,7 +529,7 @@ div.restaurants div.section div.card {
   margin-bottom: 20px;
 }
 
-div.restaurants div.section div.card div.card__img {
+div.restaurants div.restaurants__section div.card div.card__img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -533,7 +541,7 @@ div.restaurants div.section div.card div.card__img {
   border-top-right-radius: 20px;
 }
 
-div.restaurants div.section div.card div.card__img div.card__new {
+div.restaurants div.restaurants__section div.card div.card__img div.card__new {
   margin-top: 15px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -549,19 +557,19 @@ div.restaurants div.section div.card div.card__img div.card__new {
   color: #008766;
 }
 
-div.restaurants div.section div.card div.card__img.palette {
+div.restaurants div.restaurants__section div.card div.card__img.palette {
   background: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
   background-size: cover;
   background-position: center;
 }
 
-div.restaurants div.section div.card div.card__img.note {
+div.restaurants div.restaurants__section div.card div.card__img.note {
   background: url("../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
   background-size: cover;
   background-position: center;
 }
 
-div.restaurants div.section div.card div.card__img.french {
+div.restaurants div.restaurants__section div.card div.card__img.french {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -573,7 +581,7 @@ div.restaurants div.section div.card div.card__img.french {
   background-position: center;
 }
 
-div.restaurants div.section div.card div.card__img.delice {
+div.restaurants div.restaurants__section div.card div.card__img.delice {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -585,7 +593,7 @@ div.restaurants div.section div.card div.card__img.delice {
   background-position: center;
 }
 
-div.restaurants div.section div.card div.card__content {
+div.restaurants div.restaurants__section div.card div.card__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -595,18 +603,18 @@ div.restaurants div.section div.card div.card__content {
   padding-bottom: 20px;
 }
 
-div.restaurants div.section div.card div.card__content div.card__title p {
+div.restaurants div.restaurants__section div.card div.card__content div.card__title p {
   margin: 20px 20px 0;
   font-weight: bold;
   font-size: 1.2rem;
 }
 
-div.restaurants div.section div.card div.card__content div.card__title p.card__district {
+div.restaurants div.restaurants__section div.card div.card__content div.card__title p.card__district {
   margin: 0px 20px;
   font-weight: 300;
 }
 
-div.restaurants div.section div.card div.card__content div.card__heart {
+div.restaurants div.restaurants__section div.card div.card__content div.card__heart {
   font-size: 1.8rem;
   margin-right: 30px;
   -ms-flex-item-align: center;
@@ -614,7 +622,7 @@ div.restaurants div.section div.card div.card__content div.card__heart {
       align-self: center;
 }
 
-div.restaurants div.section div.card div.card__content div.card__heart i.fas.fa-heart {
+div.restaurants div.restaurants__section div.card div.card__content div.card__heart i.fas.fa-heart {
   cursor: pointer;
   position: relative;
   left: 38px;
@@ -624,7 +632,7 @@ div.restaurants div.section div.card div.card__content div.card__heart i.fas.fa-
   top: 1px;
 }
 
-div.restaurants div.section div.card div.card__content div.card__heart i.fas.fa-heart:hover {
+div.restaurants div.restaurants__section div.card div.card__content div.card__heart i.fas.fa-heart:hover {
   opacity: 1;
 }
 
@@ -664,17 +672,6 @@ header.header div.header__img img.header__logo {
           align-items: center;
 }
 
-.menu .menu__select .menu__section .menu__top .menu__grid {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: 1fr;
-      grid-template-rows: 1fr;
-  gap: 0px 30px;
-      grid-template-areas: ". . .";
-}
-
 .menu .menu__select .menu__section .menu__top .menu__title {
   margin-top: 30px;
   font-size: 1.7rem;
@@ -693,6 +690,17 @@ header.header div.header__img img.header__logo {
   position: relative;
   top: 3px;
   right: 20px;
+}
+
+.menu .menu__select .menu__section .menu__grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  gap: 0px 30px;
+      grid-template-areas: ". . .";
 }
 
 .menu .menu__select .menu__section .menu__item .item__title {
