@@ -8,5 +8,15 @@
   .container {
     width: 100%;
   }
+  div.grid-restaurant {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr !important;
+        grid-template-columns: 1fr 1fr !important;
+    -ms-grid-rows: 1fr 1fr !important;
+        grid-template-rows: 1fr 1fr !important;
+    gap: 30px 30px;
+        grid-template-areas: ". ." ". .";
+  }
 }
 /*# sourceMappingURL=tablet.css.map */

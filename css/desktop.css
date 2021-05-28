@@ -2,30 +2,38 @@
   header.header div.header__img img.header__logo {
     max-width: 20% !important;
   }
-
   div.operation div.operation__group {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row !important;
-    justify-content: center;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-
   div.restaurants div.section {
     width: 80% !important;
   }
-
   div.grid-restaurant {
+    display: -ms-grid;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
     gap: 30px 30px;
-    grid-template-areas: ". ." ". .";
+        grid-template-areas: ". ." ". .";
   }
-
   footer {
     padding: 30px 20px;
     color: white;
   }
   footer ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
   footer ul li {
@@ -46,5 +54,3 @@
     margin-bottom: 10px;
   }
 }
-
-/*# sourceMappingURL=desktop.css.map */
