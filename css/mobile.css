@@ -119,7 +119,8 @@ footer ul.grid-footer {
 
 footer ul.grid-footer li {
   list-style-type: none;
-  margin: 10px 0px;
+  margin: 5px 0px;
+  margin-bottom: 0;
 }
 
 footer ul.grid-footer li svg {
