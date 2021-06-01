@@ -9,6 +9,16 @@
             "."
             ".";
     }
+    .menu .menu__select .menu__section .menu__grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 30px 30px;
+        grid-template-areas:
+            "."
+            "."
+            ".";
+    }
 }
 
 @media only screen and (min-width: 769px) {

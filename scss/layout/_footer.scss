@@ -2,10 +2,11 @@ footer {
     background:$footer;
     padding:30px 20px;
     color:white;
+
     ul {
         li{
             list-style-type: none;
-            margin:10px 30px;
+            margin:10px 0px;
             i.fas.fa-utensils{
                 margin-right:18px;
             }
@@ -19,7 +20,7 @@ footer {
     }
     img {
         width:110px;
-        margin-bottom:10px;
+        margin-bottom:20px;
     }
 
 }

@@ -17,17 +17,15 @@
   div.restaurants div.section {
     width: 80% !important;
   }
-  
   div.container div.restaurants div.restaurants__section div.grid__restaurant {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 1fr ;
+    -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-        -ms-grid-rows: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     gap: 30px 30px;
-    grid-template-areas: ". ."
- ". .";
+        grid-template-areas: ". ." ". .";
   }
   div.order div.order__btn {
     max-width: 30%;
