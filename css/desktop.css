@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1), only screen and (min-width: 768px) and (orientation: portrait) and (min-resolution: 1dppx) {
+@media only screen and (min-width: 768px) {
   header.header div.header__img img.header__logo {
     max-width: 20% !important;
   }
@@ -17,15 +17,17 @@
   div.restaurants div.section {
     width: 80% !important;
   }
-  div.grid-restaurant {
+  
+  div.container div.restaurants div.restaurants__section div.grid__restaurant {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr ;
         grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: 1fr 1fr;
+        -ms-grid-rows: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     gap: 30px 30px;
-        grid-template-areas: ". ." ". .";
+    grid-template-areas: ". ."
+ ". .";
   }
   div.order div.order__btn {
     max-width: 30%;
@@ -39,17 +41,17 @@
     display: -ms-flexbox;
     display: flex;
   }
-  footer ul li {
+  footer ul li.desk {
     list-style-type: none;
     margin: 10px 30px !important;
   }
-  footer ul li i.fas.fa-utensils {
+  footer ul li.desk i.fas.fa-utensils {
     margin-right: 18px;
   }
-  footer ul li i {
+  footer ul li.desk i {
     margin-right: 10px;
   }
-  footer ul li a {
+  footer ul li.desk a {
     color: white;
   }
   footer img {
