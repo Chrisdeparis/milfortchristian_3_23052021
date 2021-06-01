@@ -120,11 +120,10 @@ footer ul {
 footer ul li {
   list-style-type: none;
   margin: 10px 0px;
-  width: 25%;
 }
 
 footer ul li svg {
-  width: 5%;
+  width: 18px;
   margin-right: 18px;
 }
 
@@ -287,8 +286,8 @@ div.menu div.menu__select div.section div.order {
 div.menu div.menu__select div.section div.order div.btn {
   border: 0;
   padding: 20px 25px;
-  background: #e370da;
-  background: linear-gradient(180deg, #e370da 0%, #a25bdc 100%);
+  background: #e16fda;
+  background: linear-gradient(180deg, #e16fda 0%, #c466db 50%, #a15bdc 100%);
   color: white;
   margin-top: 30px;
   text-align: center;
@@ -322,6 +321,8 @@ div.explorer p.explorer__desc {
   text-align: center;
   color: black;
   font-weight: 300;
+  line-height: 20px;
+  margin-bottom: 30px;
 }
 
 div.explorer div.explorer__link {
@@ -335,7 +336,6 @@ div.explorer div.explorer__link div.explorer__btn {
   background: #e370da;
   background: linear-gradient(180deg, #e370da 0%, #a25bdc 100%);
   color: white;
-  margin-top: 30px;
   text-align: center;
   font-size: 1rem;
   font-family: "Roboto", sans-serif;
@@ -391,15 +391,18 @@ div.operation div.operation__group .choice i {
 
 div.operation div.operation__group .choice svg {
   color: #7e7e7e;
-  width: 4.5%;
+}
+
+div.operation div.operation__group .choice svg.restau {
+  width: 15px;
 }
 
 div.operation div.operation__group .choice svg.list {
-  width: 6%;
+  width: 20px;
 }
 
 div.operation div.operation__group .choice svg.store {
-  width: 7%;
+  width: 20px;
 }
 
 div.operation div.operation__group .choice div.number {
@@ -725,5 +728,9 @@ div {
   }
   div.search div.search__title img {
     margin-right: 0;
+  }
+  footer ul.footer-grid {
+    display: flex;
+    flex-direction: column;
   }
 }
