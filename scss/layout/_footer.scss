@@ -1,7 +1,7 @@
 footer {
     background:$footer;
     padding:30px 20px;
-    color:white;
+    color:$white;
 
     ul.grid-footer {
         display:flex;
@@ -12,11 +12,11 @@ footer {
             margin:10px 0px;
             
             svg{
-                width:18px;
+                height: 15px;
                 margin-right:18px;
             }
             a{
-                color:white;
+                color:$white;
             }
         }
     }

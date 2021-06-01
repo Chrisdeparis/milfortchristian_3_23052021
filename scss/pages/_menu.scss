@@ -1,5 +1,5 @@
 header.header div.header__img img.header__logo {
-  width: 35%;
+  width: 165px;
 }
 
 .menu {
@@ -74,7 +74,7 @@ header.header div.header__img img.header__logo {
         .item__underline {
           width: 30px;
           height: 3px;
-          background: #99e2d0;
+          background: $tertiary;
           margin-bottom: 20px;
         }
 
