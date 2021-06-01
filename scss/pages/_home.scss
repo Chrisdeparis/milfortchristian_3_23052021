@@ -222,15 +222,27 @@ div.operation {
       margin-left: 10px;
       box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
       cursor: pointer;
+      
       &--bg:hover {
         background: rgb(245, 237, 255);
-        i {
+        svg {
           color: $primary;
         }
+        
       }
       i {
         color: rgb(126, 126, 126);
         font-size: 1.3rem;
+      }
+      svg {
+        color: rgb(126, 126, 126);
+        width:4.5%;
+        &.list {
+          width: 6%;;
+        }
+        &.store {
+          width:7%;
+        }
       }
       div.number {
         position: relative;

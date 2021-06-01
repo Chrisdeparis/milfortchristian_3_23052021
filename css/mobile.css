@@ -117,12 +117,9 @@ footer ul li {
   margin: 10px 0px;
 }
 
-footer ul li i.fas.fa-utensils {
+footer ul li svg {
+  width: 5%;
   margin-right: 18px;
-}
-
-footer ul li i {
-  margin-right: 10px;
 }
 
 footer ul li a {
@@ -376,13 +373,26 @@ div.operation div.operation__group .choice--bg:hover {
   background: #f5edff;
 }
 
-div.operation div.operation__group .choice--bg:hover i {
+div.operation div.operation__group .choice--bg:hover svg {
   color: #9356DC;
 }
 
 div.operation div.operation__group .choice i {
   color: #7e7e7e;
   font-size: 1.3rem;
+}
+
+div.operation div.operation__group .choice svg {
+  color: #7e7e7e;
+  width: 4.5%;
+}
+
+div.operation div.operation__group .choice svg.list {
+  width: 6%;
+}
+
+div.operation div.operation__group .choice svg.store {
+  width: 7%;
 }
 
 div.operation div.operation__group .choice div.number {
