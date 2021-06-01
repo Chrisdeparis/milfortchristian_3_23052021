@@ -7,29 +7,19 @@
     max-width: 20% !important;
   }
   div.operation div.operation__group {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal !important;
-    -webkit-box-direction: normal !important;
-        -ms-flex-direction: row !important;
-            flex-direction: row !important;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    flex-direction: row !important;
+    justify-content: center;
   }
   div.restaurants div.section {
     width: 80% !important;
   }
   div.container div.restaurants div.restaurants__section div.grid__restaurant {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 30px 30px;
-        grid-template-areas: ". ." ". .";
+    grid-template-areas: ". ." ". .";
   }
   div.order div.order__btn {
     max-width: 30%;
@@ -39,8 +29,6 @@
     color: white;
   }
   div.container footer ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   div.container footer ul li {
@@ -62,13 +50,10 @@
     margin-bottom: 10px;
   }
   .menu .menu__select .menu__section div.menu__grid {
-    display: -ms-grid !important;
     display: grid !important;
-    -ms-grid-columns: 1fr 1fr 1fr !important;
-        grid-template-columns: 1fr 1fr 1fr !important;
-    -ms-grid-rows: 1fr;
-        grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr !important;
+    grid-template-rows: 1fr;
     gap: 0px 10px;
-        grid-template-areas: ". . .";
+    grid-template-areas: ". . .";
   }
 }
