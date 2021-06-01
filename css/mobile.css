@@ -136,7 +136,7 @@ footer ul.grid-footer li a {
 }
 
 footer img {
-  width: 110px;
+  width: 100px;
   margin-bottom: 20px;
 }
 
@@ -609,7 +609,6 @@ header.header div.header__img img.header__logo {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  gap: 0px 30px;
   grid-template-areas: ". . .";
 }
 
@@ -736,5 +735,11 @@ div {
   footer ul.grid-footer {
     display: flex;
     flex-direction: column;
+  }
+  .menu .menu__select .menu__section .menu__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px;
   }
 }
