@@ -8,7 +8,7 @@
     .container {
         width:100%;
     }
-    div.grid-restaurant {
+    div.container .menu .menu__select .menu__section div.menu__grid {
         display: grid;
         grid-template-columns: 1fr 1fr!important;
         grid-template-rows: 1fr 1fr!important;
