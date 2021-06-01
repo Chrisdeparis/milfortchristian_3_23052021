@@ -38,12 +38,7 @@
     list-style-type: none;
     margin: 10px 30px;
     margin-left: 0;
-  }
-  div.container footer ul li i.fas.fa-utensils {
-    margin-right: 18px;
-  }
-  div.container footer ul li i {
-    margin-right: 10px;
+    width: 25%;
   }
   div.container footer ul li a {
     color: white;
