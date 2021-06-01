@@ -1,3 +1,7 @@
+div.container {
+  background:$white;
+}
+
 div.search {
   div.search__title {
     margin-top: 5px;
@@ -9,7 +13,7 @@ div.search {
     font-family: "Roboto", sans-serif;
     font-size: 1rem;
     font-weight: 700;
-    color: rgb(53, 53, 53);
+    color: $footer;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -150,7 +154,7 @@ div.menu {
 
 div.explorer {
   margin: 0 auto;
-  background: rgb(246, 246, 246);
+  background:$grey2;
   padding-top: 20px;
   padding-bottom: 60px;
 

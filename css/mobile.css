@@ -175,6 +175,10 @@ footer img {
   margin-bottom: 20px;
 }
 
+div.container {
+  background: white;
+}
+
 div.search div.search__title {
   margin-top: 5px;
   height: 50px;
@@ -640,10 +644,6 @@ header.header div.header__img img.header__logo {
   width: 35%;
 }
 
-body {
-  background: #f6f6f6;
-}
-
 .menu {
   background: #f6f6f6;
 }
@@ -682,6 +682,7 @@ body {
 .menu .menu__select .menu__section {
   width: 90%;
   margin: 0 auto;
+  padding-bottom: 1px;
 }
 
 .menu .menu__select .menu__section .menu__top {
