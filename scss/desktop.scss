@@ -4,14 +4,16 @@
 
 @media only screen and (min-width: 768px) {
     header.header div.header__img img.header__logo {
-        max-width:20%!important;
+        width:165px;
     }
     div.operation div.operation__group {
         display:flex;
         flex-direction: row!important;
         justify-content: center;
     }
-
+    div.search div.search__title img.icon-marker {
+        max-width:1.5%;
+    }
     div.restaurants div.section {
         width: 80%!important;
     }

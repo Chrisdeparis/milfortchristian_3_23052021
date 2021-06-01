@@ -4,10 +4,12 @@ footer {
     color:white;
 
     ul {
+        display:flex;
+        justify-content: space-between;
         li{
             list-style-type: none;
             margin:10px 0px;
-            
+            width:25%;
             svg{
                 width:5%;
                 margin-right:18px;
