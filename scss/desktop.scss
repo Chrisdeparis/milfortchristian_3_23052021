@@ -33,15 +33,16 @@
         }
     }
 
-    footer {
+    div.container footer {
         // background:$footer;
         padding:30px 20px;
         color:white;
         ul {
             display:flex;
-            li.desk{
+            li{
                 list-style-type: none;
-                margin:10px 30px!important;
+                margin:10px 30px;
+                margin-left:0;
                 i.fas.fa-utensils{
                     margin-right:18px;
                 }

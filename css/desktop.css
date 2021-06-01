@@ -34,29 +34,30 @@
   div.order div.order__btn {
     max-width: 30%;
   }
-  footer {
+  div.container footer {
     padding: 30px 20px;
     color: white;
   }
-  footer ul {
+  div.container footer ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  footer ul li.desk {
+  div.container footer ul li {
     list-style-type: none;
-    margin: 10px 30px !important;
+    margin: 10px 30px;
+    margin-left: 0;
   }
-  footer ul li.desk i.fas.fa-utensils {
+  div.container footer ul li i.fas.fa-utensils {
     margin-right: 18px;
   }
-  footer ul li.desk i {
+  div.container footer ul li i {
     margin-right: 10px;
   }
-  footer ul li.desk a {
+  div.container footer ul li a {
     color: white;
   }
-  footer img {
+  div.container footer img {
     width: 110px;
     margin-bottom: 10px;
   }
