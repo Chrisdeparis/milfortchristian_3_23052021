@@ -8,7 +8,7 @@
   .container {
     width: 100%;
   }
-  div.grid-restaurant {
+  div.container .menu .menu__select .menu__section div.menu__grid {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr !important;
@@ -16,6 +16,7 @@
     -ms-grid-rows: 1fr 1fr !important;
         grid-template-rows: 1fr 1fr !important;
     gap: 30px 30px;
-        grid-template-areas: ". ." ". .";
+        grid-template-areas: ". ."
+ ". .";
   }
 }
