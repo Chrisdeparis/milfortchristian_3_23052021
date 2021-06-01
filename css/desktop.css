@@ -1,3 +1,7 @@
+.container {
+  max-width: 1600px;
+}
+
 @media only screen and (min-width: 768px) {
   header.header div.header__img img.header__logo {
     max-width: 20% !important;
