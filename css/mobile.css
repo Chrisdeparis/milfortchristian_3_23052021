@@ -112,22 +112,22 @@ footer {
   color: white;
 }
 
-footer ul {
+footer ul.grid-footer {
   display: flex;
   justify-content: space-between;
 }
 
-footer ul li {
+footer ul.grid-footer li {
   list-style-type: none;
   margin: 10px 0px;
 }
 
-footer ul li svg {
+footer ul.grid-footer li svg {
   width: 18px;
   margin-right: 18px;
 }
 
-footer ul li a {
+footer ul.grid-footer li a {
   color: white;
 }
 
@@ -729,7 +729,7 @@ div {
   div.search div.search__title img {
     margin-right: 0;
   }
-  footer ul.footer-grid {
+  footer ul.grid-footer {
     display: flex;
     flex-direction: column;
   }
