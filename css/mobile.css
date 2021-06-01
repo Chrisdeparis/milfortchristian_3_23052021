@@ -127,6 +127,10 @@ footer ul.grid-footer li svg {
   margin-right: 18px;
 }
 
+footer ul.grid-footer li svg.partenaire {
+  margin-right: 11px;
+}
+
 footer ul.grid-footer li a {
   color: white;
 }
