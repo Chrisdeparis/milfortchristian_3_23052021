@@ -15,7 +15,7 @@
     div.operation div.operation__group {
         display:flex;
         flex-direction: row!important;
-        justify-content: center;
+        justify-content: space-evenly;
     }
     
     div.restaurants div.section {
@@ -61,6 +61,8 @@
         }
     
     }
+
+    
 
     .menu { 
 

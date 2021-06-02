@@ -384,6 +384,8 @@ div.operation div.operation__group .choice {
 
 div.operation div.operation__group .choice--bg:hover {
   background: #f5edff;
+  background: #9356dc2e;
+  box-shadow: #c57704 0px;
 }
 
 div.operation div.operation__group .choice--bg:hover svg {
