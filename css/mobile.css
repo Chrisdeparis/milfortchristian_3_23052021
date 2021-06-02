@@ -92,7 +92,8 @@ header.header div.header__img a {
   align-self: center;
 }
 
-header.header div.header__img a i.fas.fa-arrow-left {
+header.header div.header__img a img.left-arrow {
+  width: 16px;
   font-size: 1.4rem;
   align-self: center;
   margin-left: 20px;
@@ -701,12 +702,12 @@ header.header div.header__img img.header__logo {
   background: linear-gradient(1deg, #9356DC 0%, #FF79DA 100%);
   color: white;
   text-align: center;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-family: "Roboto", sans-serif;
   border-radius: 35px;
   box-shadow: 1px 5px 8px -4px #000000;
   cursor: pointer;
-  max-width: 45%;
+  width: 184px;
   margin: 40px auto;
 }
 
