@@ -138,7 +138,9 @@ header.header div.header__img img.header__logo {
           padding: 15px 25px;
           border: 0;
           background: #e370da;
-          background: linear-gradient(180deg, #e370da 0%, #a25bdc 100%);
+          background: linear-gradient(
+            1deg
+            , #9356DC 0%, #FF79DA 100%);
           color: white;
           text-align: center;
           font-size: 1rem;
