@@ -225,7 +225,7 @@ div.operation {
 
       &--bg:hover {
         
-        background: lighten($primary);
+        background: lighten($primary, 30%);
         box-shadow: rgb(197, 119, 218 / 55%) 0px; 
         svg {
           color: $primary;
