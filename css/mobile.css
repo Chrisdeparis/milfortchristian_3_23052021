@@ -312,7 +312,7 @@ div.explorer {
 }
 
 div.explorer h1.explorer__title {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 40px auto 10px;
   text-align: center;
   font-weight: 700;
@@ -339,7 +339,7 @@ div.explorer div.explorer__link {
 div.explorer div.explorer__link div.explorer__btn {
   border: 0;
   padding: 15px 19px;
-  background: linear-gradient(1deg, #9356DC 0%, #FF79DA 100%);
+  background: linear-gradient(1deg, #9356dc 0%, #ff79da 100%);
   color: white;
   text-align: center;
   font-size: 1rem;
@@ -378,7 +378,7 @@ div.operation div.operation__group .choice {
   border-radius: 20px;
   margin-bottom: 30px;
   margin-left: 10px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
   cursor: pointer;
 }
 
@@ -454,15 +454,15 @@ div.restaurants div.restaurants__section div.grid__restaurant {
   gap: 30px;
 }
 
-div.restaurants div.restaurants__section div.card {
+div.restaurants div.restaurants__section div.grid__restaurant a div.card {
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(149, 157, 165, 0.15) 0px 8px 24px;
   margin-bottom: 20px;
 }
 
-div.restaurants div.restaurants__section div.card div.card__img {
+div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img {
   display: flex;
   justify-content: flex-end;
   height: 190px;
@@ -470,7 +470,7 @@ div.restaurants div.restaurants__section div.card div.card__img {
   border-top-right-radius: 20px;
 }
 
-div.restaurants div.restaurants__section div.card div.card__img div.card__new {
+div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img div.card__new {
   margin-top: 15px;
   width: fit-content;
   padding: 5px 10px;
@@ -483,19 +483,19 @@ div.restaurants div.restaurants__section div.card div.card__img div.card__new {
   color: #008766;
 }
 
-div.restaurants div.restaurants__section div.card div.card__img.palette {
+div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.palette {
   background: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
   background-size: cover;
   background-position: center;
 }
 
-div.restaurants div.restaurants__section div.card div.card__img.note {
+div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.note {
   background: url("../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
   background-size: cover;
   background-position: center;
 }
 
-div.restaurants div.restaurants__section div.card div.card__img.french {
+div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.french {
   display: flex;
   justify-content: flex-end;
   background: url("../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
@@ -503,7 +503,7 @@ div.restaurants div.restaurants__section div.card div.card__img.french {
   background-position: center;
 }
 
-div.restaurants div.restaurants__section div.card div.card__img.delice {
+div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.delice {
   display: flex;
   justify-content: flex-end;
   background: url("../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
@@ -511,31 +511,31 @@ div.restaurants div.restaurants__section div.card div.card__img.delice {
   background-position: center;
 }
 
-div.restaurants div.restaurants__section div.card div.card__content {
+div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content {
   display: flex;
   justify-content: space-between;
   padding-bottom: 20px;
 }
 
-div.restaurants div.restaurants__section div.card div.card__content div.card__title p {
+div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__title p {
   margin: 20px 20px 0;
   font-weight: bold;
   font-size: 1.2rem;
 }
 
-div.restaurants div.restaurants__section div.card div.card__content div.card__title p.card__district {
+div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__title p.card__district {
   margin: 0px 20px;
   font-weight: 300;
 }
 
-div.restaurants div.restaurants__section div.card div.card__content div.card__heart {
+div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart {
   display: flex;
   font-size: 1.8rem;
   margin-right: 25px;
   align-self: center;
 }
 
-div.restaurants div.restaurants__section div.card div.card__content div.card__heart svg.heart {
+div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart svg.heart {
   width: 30px;
   stroke-width: 20;
   stroke: black;
@@ -543,16 +543,16 @@ div.restaurants div.restaurants__section div.card div.card__content div.card__he
   cursor: pointer;
 }
 
-div.restaurants div.restaurants__section div.card div.card__content div.card__heart svg.heart-empty {
+div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart svg.heart-empty {
   position: relative;
 }
 
-div.restaurants div.restaurants__section div.card div.card__content div.card__heart svg.heart-empty:hover {
+div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart svg.heart-empty:hover {
   opacity: 0;
   transition: 0.5s;
 }
 
-div.restaurants div.restaurants__section div.card div.card__content div.card__heart svg.heart-full {
+div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart svg.heart-full {
   position: absolute;
   fill: url(#text-fill);
   stroke: none;
