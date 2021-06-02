@@ -54,6 +54,13 @@ div {
         flex-direction: column;
 
     }
+    footer ul.grid-footer ul li svg {
+        height: 15px;
+    margin-right: 18px;
+    }
+    footer ul.grid-footer ul li svg.partenaire {
+        margin-right:11px;
+    }
     .menu .menu__select .menu__section .menu__grid {
         display: grid;
         grid-template-columns: 1fr;

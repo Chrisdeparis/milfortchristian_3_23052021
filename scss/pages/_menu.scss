@@ -32,6 +32,8 @@ header.header div.header__img img.header__logo {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        position: relative;
+        bottom: 16px;
         
 
         .menu__title {
@@ -87,7 +89,7 @@ header.header div.header__img img.header__logo {
 
           .item__desc {
             font-weight: 300;
-            padding: 20px 10px;
+            padding: 10px;
             font-size:0.8rem;
 
             .desc__title {

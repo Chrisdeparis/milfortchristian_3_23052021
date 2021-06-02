@@ -528,23 +528,37 @@ div.restaurants div.restaurants__section div.card div.card__content div.card__ti
 }
 
 div.restaurants div.restaurants__section div.card div.card__content div.card__heart {
+  display: flex;
   font-size: 1.8rem;
-  margin-right: 30px;
+  margin-right: 60px;
   align-self: center;
 }
 
-div.restaurants div.restaurants__section div.card div.card__content div.card__heart i.fas.fa-heart {
+div.restaurants div.restaurants__section div.card div.card__content div.card__heart img.solid {
+  width: 35px;
+  height: 35px;
   cursor: pointer;
   position: relative;
-  left: 38px;
+  left: 60px;
   opacity: 0;
   color: #9356DC;
   font-size: 2rem;
-  top: 1px;
+  top: -3px;
 }
 
-div.restaurants div.restaurants__section div.card div.card__content div.card__heart i.fas.fa-heart:hover {
+div.restaurants div.restaurants__section div.card div.card__content div.card__heart img.regular {
+  position: relative;
+  left: 28px;
+  bottom: 1px;
+  height: 30px;
+  width: 30px;
+}
+
+div.restaurants div.restaurants__section div.card div.card__content div.card__heart img.solid:hover {
+  width: 35px;
+  height: 35px;
   opacity: 1;
+  z-index: 1;
 }
 
 header.header div.header__img img.header__logo {
@@ -586,6 +600,8 @@ header.header div.header__img img.header__logo {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  bottom: 16px;
 }
 
 .menu .menu__select .menu__section .menu__top .menu__title {
@@ -639,7 +655,7 @@ header.header div.header__img img.header__logo {
 
 .menu .menu__select .menu__section .menu__item .item__card .item__desc {
   font-weight: 300;
-  padding: 20px 10px;
+  padding: 10px;
   font-size: 0.8rem;
 }
 
@@ -736,6 +752,13 @@ div {
   footer ul.grid-footer {
     display: flex;
     flex-direction: column;
+  }
+  footer ul.grid-footer ul li svg {
+    height: 15px;
+    margin-right: 18px;
+  }
+  footer ul.grid-footer ul li svg.partenaire {
+    margin-right: 11px;
   }
   .menu .menu__select .menu__section .menu__grid {
     display: grid;

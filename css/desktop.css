@@ -3,6 +3,12 @@
 }
 
 @media only screen and (min-width: 768px) {
+  div.search div.search__title img.icon-marker {
+    width: 15px;
+    position: relative;
+    bottom: 5px;
+    right: 15px;
+  }
   header.header div.header__img img.header__logo {
     width: 165px;
   }
@@ -10,9 +16,6 @@
     display: flex;
     flex-direction: row !important;
     justify-content: center;
-  }
-  div.search div.search__title img.icon-marker {
-    max-width: 1.5%;
   }
   div.restaurants div.section {
     width: 80% !important;
