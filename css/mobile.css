@@ -615,7 +615,9 @@ header.header div.header__img img.header__logo {
   bottom: 10px;
 }
 
-.menu .menu__select .menu__section .menu__top .menu__heart .far {
+.menu .menu__select .menu__section .menu__top .menu__heart img {
+  width: 28px;
+  height: 28px;
   font-size: 1.9rem;
   position: relative;
   top: 3px;

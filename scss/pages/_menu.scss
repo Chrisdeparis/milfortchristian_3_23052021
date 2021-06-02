@@ -47,7 +47,9 @@ header.header div.header__img img.header__logo {
           position: relative;
           bottom: 10px;
 
-          .far {
+          img {
+            width: 28px;
+            height: 28px;
             font-size: 1.9rem;
             position: relative;
             top: 3px;
