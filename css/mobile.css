@@ -338,8 +338,7 @@ div.explorer div.explorer__link {
 div.explorer div.explorer__link div.explorer__btn {
   border: 0;
   padding: 15px 19px;
-  background: #e370da;
-  background: linear-gradient(180deg, #e370da 0%, #a25bdc 100%);
+  background: linear-gradient(1deg, #9356DC 0%, #FF79DA 100%);
   color: white;
   text-align: center;
   font-size: 1rem;
@@ -531,35 +530,31 @@ div.restaurants div.restaurants__section div.card div.card__content div.card__ti
 div.restaurants div.restaurants__section div.card div.card__content div.card__heart {
   display: flex;
   font-size: 1.8rem;
-  margin-right: 60px;
+  margin-right: 25px;
   align-self: center;
 }
 
-div.restaurants div.restaurants__section div.card div.card__content div.card__heart img.solid {
-  width: 35px;
-  height: 35px;
-  cursor: pointer;
-  position: relative;
-  left: 60px;
-  opacity: 0;
-  color: #9356DC;
-  font-size: 2rem;
-  top: -3px;
-}
-
-div.restaurants div.restaurants__section div.card div.card__content div.card__heart img.regular {
-  position: relative;
-  left: 28px;
-  bottom: 1px;
-  height: 30px;
+div.restaurants div.restaurants__section div.card div.card__content div.card__heart svg.heart {
   width: 30px;
+  stroke-width: 20;
+  stroke: black;
+  fill: white;
+  cursor: pointer;
 }
 
-div.restaurants div.restaurants__section div.card div.card__content div.card__heart img.solid:hover {
-  width: 35px;
-  height: 35px;
-  opacity: 1;
-  z-index: 1;
+div.restaurants div.restaurants__section div.card div.card__content div.card__heart svg.heart-empty {
+  position: relative;
+}
+
+div.restaurants div.restaurants__section div.card div.card__content div.card__heart svg.heart-empty:hover {
+  opacity: 0;
+  transition: 0.5s;
+}
+
+div.restaurants div.restaurants__section div.card div.card__content div.card__heart svg.heart-full {
+  position: absolute;
+  fill: url(#text-fill);
+  stroke: none;
 }
 
 header.header div.header__img img.header__logo {
@@ -613,7 +608,30 @@ header.header div.header__img img.header__logo {
 .menu .menu__select .menu__section .menu__top .menu__heart {
   align-self: flex-end;
   position: relative;
-  bottom: 10px;
+  bottom: 2px;
+}
+
+.menu .menu__select .menu__section .menu__top .menu__heart svg.heart {
+  width: 30px;
+  stroke-width: 20;
+  stroke: black;
+  fill: white;
+  cursor: pointer;
+}
+
+.menu .menu__select .menu__section .menu__top .menu__heart svg.heart-empty {
+  position: relative;
+}
+
+.menu .menu__select .menu__section .menu__top .menu__heart svg.heart-empty:hover {
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.menu .menu__select .menu__section .menu__top .menu__heart svg.heart-full {
+  position: absolute;
+  fill: url(#text-fill);
+  stroke: none;
 }
 
 .menu .menu__select .menu__section .menu__top .menu__heart img {

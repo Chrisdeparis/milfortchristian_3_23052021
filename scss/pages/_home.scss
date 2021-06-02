@@ -180,12 +180,8 @@ div.explorer {
     div.explorer__btn {
       border: 0;
       padding: 15px 19px;
-      background: rgb(227, 112, 218);
-      background: linear-gradient(
-        180deg,
-        rgba(227, 112, 218, 1) 0%,
-        rgba(162, 91, 220, 1) 100%
-      );
+      
+      background: linear-gradient(1deg, #9356DC 0%, #FF79DA 100%);
       color: white;
       text-align: center;
       font-size: 1rem;
@@ -351,34 +347,30 @@ div.restaurants {
         div.card__heart {
           display: flex;
           font-size: 1.8rem;
-          margin-right: 60px;
+          margin-right: 25px;
           align-self: center;
-          img.solid {
-            width: 35px;
-            height:35px;
-            cursor: pointer;
-            position: relative;
-            left: 60px;
-            opacity: 0;
-            color: $primary;
-            font-size: 2rem;
-            top: -3px;
-          }
-          & img.regular {
-            
-            position: relative;
-            left: 28px;
-            
-            bottom: 1px;
-            height: 30px;
+
+          svg.heart {
             width: 30px;
+            stroke-width: 20;
+            stroke: black;
+            fill: white;
+            cursor: pointer;
           }
-          & img.solid:hover {
-            width: 35px;
-            height: 35px;
-            opacity: 1;
-            z-index: 1;
+          svg.heart-empty {
+            position: relative;
           }
+          svg.heart-empty:hover {
+            opacity: 0;
+            transition: 0.5s;
+          }
+          svg.heart-full{
+            position: absolute;
+            fill: url(#text-fill);
+            stroke: none;
+          }
+          
+
         }
       }
     }

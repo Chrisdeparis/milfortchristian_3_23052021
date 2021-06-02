@@ -45,7 +45,26 @@ header.header div.header__img img.header__logo {
         .menu__heart {
           align-self: flex-end;
           position: relative;
-          bottom: 10px;
+          bottom:2px;
+          svg.heart {
+            width: 30px;
+            stroke-width: 20;
+            stroke: black;
+            fill: white;
+            cursor: pointer;
+          }
+          svg.heart-empty {
+            position: relative;
+          }
+          svg.heart-empty:hover {
+            opacity: 0;
+            transition: 0.5s;
+          }
+          svg.heart-full{
+            position: absolute;
+            fill: url(#text-fill);
+            stroke: none;
+          }
 
           img {
             width: 28px;
