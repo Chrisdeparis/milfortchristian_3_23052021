@@ -381,6 +381,9 @@ div.restaurants {
               margin-right: 15px;
               border-radius: 2px;
               color: rgb(0, 135, 102);
+              &:hover {
+                background: #99e2d0dc;
+              }
             }
             &.palette {
               background: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");

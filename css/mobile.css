@@ -557,6 +557,10 @@ div.restaurants div.restaurants__section div.grid__restaurant a div.card div.car
   color: #008766;
 }
 
+div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img div.card__new:hover {
+  background: #99e2d0dc;
+}
+
 div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.palette {
   background: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
   background-size: cover;
