@@ -8,6 +8,10 @@
   .container {
     width: 100%;
   }
+  div.container footer ul.grid-footer {
+    display: flex;
+    flex-direction: row;
+  }
   div.container .menu .menu__select .menu__section div.menu__grid {
     display: grid;
     grid-template-columns: 1fr 1fr !important;
