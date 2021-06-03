@@ -457,7 +457,7 @@ div.operation div.operation__group .choice {
 
 div.operation div.operation__group .choice--bg:hover {
   background: #e4d5f6;
-  box-shadow: #c57704 0px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 div.operation div.operation__group .choice--bg:hover svg {
@@ -905,7 +905,7 @@ header.header div.header__img img.header__logo {
     transform: scaleX(0);
   }
   100% {
-    transform: scaleX(-50px);
+    transform: rotateX(10deg);
   }
 }
 
