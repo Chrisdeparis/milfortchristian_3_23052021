@@ -85,7 +85,7 @@ header.header div.header__img img.header__logo {
           "entrees"
           "plats"
           "desserts";
-        
+        grid-template-rows: repeat(3, minmax(90px, auto));
 
           .item__card { 
             position: relative;
