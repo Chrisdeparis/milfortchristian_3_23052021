@@ -346,7 +346,7 @@ div.explorer div.explorer__link div.explorer__btn {
   width: 219px;
   font-family: "Roboto", sans-serif;
   border-radius: 35px;
-  box-shadow: 1px 5px 8px -4px #000000;
+  box-shadow: 1px 5px 4px -4px #000000;
 }
 
 div.explorer div.explorer__link div.explorer__btn a {
@@ -954,6 +954,10 @@ div {
   }
   footer ul.grid-footer ul li svg.partenaire {
     margin-right: 11px;
+  }
+  div.explorer div.explorer__link div.explorer__btn:hover {
+    background: linear-gradient(1deg, #9256dcde 0%, #ff79d9d5 100%);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
   .menu .menu__select .menu__section .menu__grid {
     display: grid;
