@@ -689,6 +689,12 @@ header.header div.header__img img.header__logo {
   overflow: hidden;
 }
 
+.menu .menu__select .menu__section .menu__grid .item__card .item__group .item__menu .desc__subtitle p {
+  margin: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
 .menu .menu__select .menu__section .menu__grid .item__card .item__group .item__price {
   padding: 20px 0px 1px;
   font-weight: bold;
@@ -724,6 +730,10 @@ header.header div.header__img img.header__logo {
   align-items: center;
   animation: slide-left 0.5s ease;
   transform-origin: right;
+}
+
+.menu .menu__select .menu__section .menu__item {
+  overflow-x: hidden;
 }
 
 .menu .menu__select .menu__section .menu__item .item__title {
