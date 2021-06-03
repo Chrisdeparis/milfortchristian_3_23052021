@@ -65,7 +65,7 @@ div {
     .menu .menu__select .menu__section .menu__grid {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         gap:0px;
     }
     
