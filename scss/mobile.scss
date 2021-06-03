@@ -67,6 +67,11 @@ div {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         gap:0px;
+        grid-template-areas:
+          "."
+          "."
+          ".";
+        grid-template-rows: repeat(3, minmax(90px, auto));
     }
     
     
