@@ -50,6 +50,10 @@
     width: 110px;
     margin-bottom: 10px;
   }
+  div.explorer div.explorer__link div.explorer__btn:hover {
+    background: linear-gradient(1deg, #9256dcde 0%, #ff79d9d5 100%);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
   .menu .menu__select .menu__section div.menu__grid {
     display: grid !important;
     grid-template-columns: 1fr 1fr 1fr !important;
