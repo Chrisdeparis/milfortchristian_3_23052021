@@ -364,13 +364,18 @@ div.restaurants {
           flex-direction: column;
           box-shadow: rgba(149, 157, 165, 0.15) 0px 8px 24px;
           margin-bottom: 20px;
-          
+          overflow: hidden;
           div.card__img {
             display: flex;
             justify-content: flex-end;
             height: 190px;
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
+            
+            &:hover {
+              transform: scale(1.04);
+              transition: all 0.2s ease-in-out;
+            }
             
             div.card__new {
               margin-top: 15px;

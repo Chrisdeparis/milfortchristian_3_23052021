@@ -534,6 +534,7 @@ div.restaurants div.restaurants__section div.grid__restaurant a div.card {
   flex-direction: column;
   box-shadow: rgba(149, 157, 165, 0.15) 0px 8px 24px;
   margin-bottom: 20px;
+  overflow: hidden;
 }
 
 div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img {
@@ -542,6 +543,11 @@ div.restaurants div.restaurants__section div.grid__restaurant a div.card div.car
   height: 190px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+}
+
+div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img:hover {
+  transform: scale(1.04);
+  transition: all 0.2s ease-in-out;
 }
 
 div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img div.card__new {
