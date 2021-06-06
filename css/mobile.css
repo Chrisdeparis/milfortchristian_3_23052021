@@ -525,7 +525,7 @@ div.restaurants div.restaurants__section p.restaurant__title {
 div.restaurants div.restaurants__section div.grid__restaurant {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 30px;
+  gap: 0px;
 }
 
 div.restaurants div.restaurants__section div.grid__restaurant a div.card {
@@ -929,47 +929,47 @@ header.header div.header__img img.header__logo {
 }
 
 .appears-effect {
-  animation: opacity 1s both;
+  animation: opacity 1.5s both;
 }
 
 #case-1 {
-  animation-delay: 0.1s;
+  animation-delay: 1.5s;
 }
 
 #case-2 {
-  animation-delay: 0.2s;
+  animation-delay: 1.6s;
 }
 
 #case-3 {
-  animation-delay: 0.3s;
+  animation-delay: 1.7s;
 }
 
 #case-4 {
-  animation-delay: 0.4s;
+  animation-delay: 1.8s;
 }
 
 #case-5 {
-  animation-delay: 0.5s;
+  animation-delay: 1.9s;
 }
 
 #case-6 {
-  animation-delay: 0.6s;
+  animation-delay: 2s;
 }
 
 #case-7 {
-  animation-delay: 0.7s;
+  animation-delay: 2.1s;
 }
 
 #case-8 {
-  animation-delay: 0.8s;
+  animation-delay: 2.2s;
 }
 
 #case-9 {
-  animation-delay: 0.9s;
+  animation-delay: 2.3s;
 }
 
 #case-10 {
-  animation-delay: 1s;
+  animation-delay: 2.4s;
 }
 
 @media only screen and (max-width: 768px) {

@@ -356,7 +356,7 @@ div.restaurants {
     div.grid__restaurant {
       display: grid;
       grid-template-columns: 1fr;
-      gap: 30px;
+      gap: 0px;
       a {
         div.card {
           border-radius: 20px;
