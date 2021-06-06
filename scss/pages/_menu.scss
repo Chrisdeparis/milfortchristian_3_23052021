@@ -20,238 +20,243 @@ header.header div.header__img img.header__logo {
       border-top-right-radius: 30px;
     }
   }
+}
+.menu__select {
+  background: $grey2;
+  margin-top:10px;
+  border-radius: 30px 30px 0 0;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  position: relative;
+    bottom: 40px;
+    padding-top: 20px;
+  
+  .menu__section {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 1px;
 
-  .menu__select {
-    border-radius: 30px 30px 0 0;
-    
-    .menu__section {
-      width: 90%;
-      margin: 0 auto;
-      padding-bottom: 1px;
+    .menu__top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+      
 
-      .menu__top {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+      .menu__title {
+       
+        font-size: 1.7rem;
+        font-family: "Shrikhand", cursive;
+      }
+
+      .menu__heart {
+        align-self: flex-end;
         position: relative;
-        bottom: 16px;
-        
-
-        .menu__title {
-         
-          font-size: 1.7rem;
-          font-family: "Shrikhand", cursive;
+        bottom:2px;
+        svg.heart {
+          width: 30px;
+          stroke-width: 20;
+          stroke: black;
+          fill: white;
+          cursor: pointer;
+        }
+        svg.heart-empty {
+          position: relative;
+        }
+        svg.heart-empty:hover {
+          opacity: 0;
+          transition: 0.5s;
+        }
+        svg.heart-full{
+          position: absolute;
+          fill: url(#text-fill);
+          stroke: none;
         }
 
-        .menu__heart {
-          align-self: flex-end;
+        img {
+          width: 28px;
+          height: 28px;
+          font-size: 1.9rem;
           position: relative;
-          bottom:2px;
-          svg.heart {
-            width: 30px;
-            stroke-width: 20;
-            stroke: black;
-            fill: white;
-            cursor: pointer;
-          }
-          svg.heart-empty {
-            position: relative;
-          }
-          svg.heart-empty:hover {
-            opacity: 0;
-            transition: 0.5s;
-          }
-          svg.heart-full{
-            position: absolute;
-            fill: url(#text-fill);
-            stroke: none;
-          }
-
-          img {
-            width: 28px;
-            height: 28px;
-            font-size: 1.9rem;
-            position: relative;
-            top: 3px;
-            right: 20px;
-          }
+          top: 3px;
+          right: 20px;
         }
       }
-      .menu__grid{
-        display: grid;
-        grid-template-columns: 1fr;
-        
-        grid-template-areas:
-          "entrees"
-          "plats"
-          "desserts";
-        grid-template-rows: repeat(3, minmax(90px, auto));
+    }
+    .menu__grid{
+      display: grid;
+      grid-template-columns: 1fr;
+      
+      grid-template-areas:
+        "entrees"
+        "plats"
+        "desserts";
+      grid-template-rows: repeat(3, minmax(90px, auto));
 
-          .item__card { 
-            position: relative;
-            cursor: pointer;
-            overflow: hidden;
+        .item__card { 
+          position: relative;
+          cursor: pointer;
+          overflow: hidden;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 100%;
+          height: 70px;
+          border-radius: 15px;
+          background-color: white;
+          
+          .item__group { 
+            width: 100%;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            width: 100%;
-            height: 70px;
-            border-radius: 15px;
-            background-color: white;
-            
-            .item__group { 
-              width: 100%;
-              display: flex;
-              justify-content: space-between;
-              align-items: center;
-              .item__menu { 
-                margin-left: 20px;
-                white-space: nowrap;
-                overflow: hidden;
-                .desc__title { 
-                  font-weight: bold;
-                  p { 
-                    margin: 0;
-                    text-overflow: ellipsis;
-                    overflow: hidden;
-                  }
-                }
-          
-                .desc__subtitle { 
-          
-                  p { 
-                    margin: 0;
-                    text-overflow: ellipsis;
-                    overflow: hidden;
-                  }
-                }
-              }
-          
-              .item__price { 
-                padding: 20px 0px 1px;
+            .item__menu { 
+              margin-left: 20px;
+              white-space: nowrap;
+              overflow: hidden;
+              .desc__title { 
                 font-weight: bold;
-                padding-left: 7px;
+                p { 
+                  margin: 0;
+                  text-overflow: ellipsis;
+                  overflow: hidden;
+                }
               }
-            }
-          
-            .valid__check { 
-              display: none;
-              position: absolute;
-              background: #99e2d0;
-              border-radius: 0 15px 15px 0;
-              right: 0px;
-              padding: 0 13px;
-              height: 100%;
-              
-              img { 
-                width: 20px;
-                font-size: 30px;
-                color: white;
-                transform: rotate(180deg);
-                animation: rotate 0.5s both;
-          
-              }
-            }&:hover .item__price {
-              padding-right: 70px;
-              transition: 0.5s ease;
-            }&:hover .valid__check {
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              animation: slide-left 0.5s ease;
-              transform-origin: right;
-            }
-          }
-      }
-
-      .menu__item {
-        overflow-x: hidden;
         
-        .item__title {
-          font-size: 1rem;
-          text-transform: uppercase;
-          font-weight: 300;
-          margin-top: 30px;
-          margin-bottom: 7px;
-        }
-
-        .item__underline {
-          width: 30px;
-          height: 3px;
-          background: $tertiary;
-          margin-bottom: 20px;
-        }
-
-        .item__card {
-          display: flex;
-          border-radius: 20px;
-          justify-content: space-between;
-          margin-bottom: 10px;
-          margin-right:20px;
-          cursor: pointer;
-
-          .item__desc {
-            font-weight: 300;
-            padding: 10px;
-            font-size:0.8rem;
-
-            .desc__title {
-              font-weight: bold;
-              
+              .desc__subtitle { 
+        
+                p { 
+                  margin: 0;
+                  text-overflow: ellipsis;
+                  overflow: hidden;
+                }
+              }
             }
-
-            p {}
+        
+            .item__price { 
+              padding: 20px 0px 1px;
+              font-weight: bold;
+              padding-left: 7px;
+            }
           }
-
-          .item__price {
-            display: flex;
-            align-self: flex-end;
-            font-weight: bold;
-            color: #353535;
-            margin-right: 30px;
-            padding: 20px 0px;
-            font-size:0.8rem;
-          }
-          .selected__dish {
-            // display: none;
-            // position: absolute;
+        
+          .valid__check { 
+            display: none;
+            position: absolute;
             background: #99e2d0;
             border-radius: 0 15px 15px 0;
             right: 0px;
-            padding: 0px 15px;
-            height: 76px;
-            align-items: center;
-            justify-content: center;
-            align-self: center;
-            display: flex;
-            img {
-              width:20px;
+            padding: 0 13px;
+            height: 100%;
+            
+            img { 
+              width: 20px;
+              font-size: 30px;
+              color: white;
+              transform: rotate(180deg);
+              animation: rotate 0.5s both;
+        
             }
+          }&:hover .item__price {
+            padding-right: 70px;
+            transition: 0.5s ease;
+          }&:hover .valid__check {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: slide-left 0.5s ease;
+            transform-origin: right;
+          }
+        }
+    }
+
+    .menu__item {
+      overflow-x: hidden;
+      
+      .item__title {
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-weight: 300;
+        margin-top: 30px;
+        margin-bottom: 7px;
+      }
+
+      .item__underline {
+        width: 30px;
+        height: 3px;
+        background: $tertiary;
+        margin-bottom: 20px;
+      }
+
+      .item__card {
+        display: flex;
+        border-radius: 20px;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        margin-right:20px;
+        cursor: pointer;
+
+        .item__desc {
+          font-weight: 300;
+          padding: 10px;
+          font-size:0.8rem;
+
+          .desc__title {
+            font-weight: bold;
+            
+          }
+
+          p {}
+        }
+
+        .item__price {
+          display: flex;
+          align-self: flex-end;
+          font-weight: bold;
+          color: #353535;
+          margin-right: 30px;
+          padding: 20px 0px;
+          font-size:0.8rem;
+        }
+        .selected__dish {
+          // display: none;
+          // position: absolute;
+          background: #99e2d0;
+          border-radius: 0 15px 15px 0;
+          right: 0px;
+          padding: 0px 15px;
+          height: 76px;
+          align-items: center;
+          justify-content: center;
+          align-self: center;
+          display: flex;
+          img {
+            width:20px;
           }
         }
       }
+    }
 
-      .order {
-        .order__btn {
-          padding: 15px 25px;
-          border: 0;
-          background: #e370da;
-          background: linear-gradient(
-            1deg
-            , #9356DC 0%, #FF79DA 100%);
-          color: white;
-          text-align: center;
-          font-size: 0.9rem;
-          font-family: "Roboto", sans-serif;
-          border-radius: 35px;
-          box-shadow: 1px 5px 8px -4px #000000;
-          cursor: pointer;
-          width:184px;
-          margin: 40px auto;
-          &:hover {
-            background: linear-gradient(1deg, #9256dcde 0%, #ff79d9d5 100%);
-            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-          }
+    .order {
+      .order__btn {
+        padding: 15px 25px;
+        border: 0;
+        background: #e370da;
+        background: linear-gradient(
+          1deg
+          , #9356DC 0%, #FF79DA 100%);
+        color: white;
+        text-align: center;
+        font-size: 0.9rem;
+        font-family: "Roboto", sans-serif;
+        border-radius: 35px;
+        box-shadow: 1px 5px 8px -4px #000000;
+        cursor: pointer;
+        width:184px;
+        margin: 40px auto;
+        &:hover {
+          background: linear-gradient(1deg, #9256dcde 0%, #ff79d9d5 100%);
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         }
       }
     }
