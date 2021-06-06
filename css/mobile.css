@@ -746,7 +746,6 @@ header.header div.header__img img.header__logo {
   height: 70px;
   border-radius: 15px;
   background-color: white;
-  box-shadow: 5px 5px 15px 5px black;
 }
 
 .menu .menu__select .menu__section .menu__grid .item__card .item__group {
@@ -836,7 +835,6 @@ header.header div.header__img img.header__logo {
 
 .menu .menu__select .menu__section .menu__item .item__card {
   display: flex;
-  box-shadow: rgba(149, 157, 165, 0.15) 0px 8px 24px;
   border-radius: 20px;
   justify-content: space-between;
   margin-bottom: 10px;

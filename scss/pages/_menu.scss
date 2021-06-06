@@ -98,7 +98,7 @@ header.header div.header__img img.header__logo {
             height: 70px;
             border-radius: 15px;
             background-color: white;
-            box-shadow: 5px 5px 15px 5px rgb(0, 0, 0.10);
+            
             .item__group { 
               width: 100%;
               display: flex;
@@ -184,7 +184,6 @@ header.header div.header__img img.header__logo {
 
         .item__card {
           display: flex;
-          box-shadow: rgba(149, 157, 165, 0.15) 0px 8px 24px;
           border-radius: 20px;
           justify-content: space-between;
           margin-bottom: 10px;
