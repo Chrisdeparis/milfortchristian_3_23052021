@@ -277,7 +277,7 @@ header.header div.header__img img.header__logo {
     transform: scaleX(0);
   }
   100% {
-    transform: rotateX(10deg);
+    transform: scaleX(-50px);
   }
 }
 
