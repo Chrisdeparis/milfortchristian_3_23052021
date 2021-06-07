@@ -114,6 +114,9 @@ header.header div.header__img img.header__logo {
           &:hover .valid__check {
             transition:width 4s;
           }
+          &:hover .item__menu {
+            width: 70%;
+          }
           
           
           .item__group { 
@@ -126,7 +129,9 @@ header.header div.header__img img.header__logo {
             .item__menu { 
               margin-left: 20px;
               white-space: nowrap;
-              overflow: hidden;
+              // text-overflow: ellipsis;
+              // overflow: hidden;
+              
               .desc__title { 
                 font-weight: bold;
                 p { 
@@ -151,7 +156,8 @@ header.header div.header__img img.header__logo {
               padding: 20px 0px 1px;
               font-weight: bold;
               padding-left: 7px;
-              padding-right: 30px;
+              
+              margin-right:30px;
               animation: slide-right 0.5s ease-in forwards;
             }
           }
