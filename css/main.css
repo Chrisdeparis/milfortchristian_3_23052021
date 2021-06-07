@@ -1151,6 +1151,10 @@ header.header div.header__img img.header__logo {
     gap: 30px 30px;
     grid-template-areas: "." "." ".";
   }
+  footer ul.grid-footer {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media only screen and (min-width: 769px) {
