@@ -71,7 +71,7 @@
             .menu__section {
                 div.menu__grid {
                     display: grid !important;
-                    grid-template-columns: 1fr 1fr 1fr !important;
+                    grid-template-columns: 1fr 1fr 1fr;
                     grid-template-rows: 1fr;
                     gap: 0px 30px;
                     grid-template-areas: ". . .";
@@ -84,4 +84,15 @@
 
 
 @media only screen and (max-width: 1024px) and (orientation: landscape) and (min-resolution: 1dppx) {
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  div.container div.menu div.menu__select .menu__section div.menu__grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: ". .";
+
+  }
 }
