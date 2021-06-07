@@ -1134,6 +1134,9 @@ header.header div.header__img img.header__logo {
   .container {
     width: 100%;
   }
+  .menu__select .menu__section .menu__grid .item__card .item__group .item__menu .desc__subtitle p {
+    font-size: 0.8rem;
+  }
   div.grid-restaurant {
     display: grid;
     grid-template-columns: 1fr;
@@ -1162,8 +1165,4 @@ header.header div.header__img img.header__logo {
     gap: 30px 30px;
     grid-template-areas: ". ." ". .";
   }
-}
-
-.container {
-  margin: 0 auto;
 }

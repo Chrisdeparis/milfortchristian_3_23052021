@@ -1,5 +1,8 @@
 @media only screen and (max-width:768px) {
     .container {width:100%;}
+    .menu__select .menu__section .menu__grid .item__card .item__group .item__menu .desc__subtitle p {
+        font-size:0.8rem;
+    }
     div.grid-restaurant {
         display: grid;
         grid-template-columns: 1fr;
