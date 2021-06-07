@@ -425,7 +425,7 @@ div.explorer div.explorer__link div.explorer__btn {
   width: 219px;
   font-family: "Roboto", sans-serif;
   border-radius: 35px;
-  box-shadow: 1px 5px 4px -4px #000000;
+  box-shadow: 1px 5px 8px -6px #000000;
 }
 
 div.explorer div.explorer__link div.explorer__btn a {
