@@ -379,7 +379,7 @@ div.menu div.menu__select div.section div.order div.btn {
   font-size: 1rem;
   font-family: "Roboto", sans-serif;
   border-radius: 35px;
-  box-shadow: 1px 5px 8px -1px #000000;
+  box-shadow: 1px 5px 8px -6px #000000;
   cursor: pointer;
 }
 
@@ -800,6 +800,7 @@ header.header div.header__img img.header__logo {
   padding: 20px 0px 1px;
   font-weight: bold;
   padding-left: 7px;
+  padding-right: 30px;
   animation: slide-right 0.4s ease-in forwards;
 }
 
