@@ -49,7 +49,7 @@ header.header div.header__img img.header__logo {
        
         font-size: 1.7rem;
         font-family: "Shrikhand", cursive;
-        animation:reverse 1s;
+        
       }
 
       .menu__heart {
@@ -338,7 +338,8 @@ header.header div.header__img img.header__logo {
      }
   100% {
     transform: translate3d(100%, 0, 0);
-     } }
+     } 
+}
 
 
 @keyframes opacity {
@@ -349,17 +350,7 @@ header.header div.header__img img.header__logo {
     opacity: 1;
   }
 }
-@keyframes reverse {
-  from {
-    transform: translate3d(-100%, 0, 0);
-    
-  }
-  to {
-      
-    transform: none;
-      
-  }
-}
+
 
 .appears-effect {
   animation: opacity 1.5s both;

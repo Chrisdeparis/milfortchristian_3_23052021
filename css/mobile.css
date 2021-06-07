@@ -700,7 +700,6 @@ header.header div.header__img img.header__logo {
 .menu__select .menu__section .menu__top .menu__title {
   font-size: 1.7rem;
   font-family: "Shrikhand", cursive;
-  animation: reverse 1s;
 }
 
 .menu__select .menu__section .menu__top .menu__heart {
@@ -980,15 +979,6 @@ header.header div.header__img img.header__logo {
   }
 }
 
-@keyframes reverse {
-  from {
-    transform: translate3d(-100%, 0, 0);
-  }
-  to {
-    transform: none;
-  }
-}
-
 .appears-effect {
   animation: opacity 1.5s both;
 }
@@ -1083,6 +1073,9 @@ div {
 @media only screen and (max-width: 768px) {
   header.header div.header__img img.header__logo {
     width: 165px;
+  }
+  .menu__select .menu__section .menu__grid .item__card .item__group .item__menu .desc__subtitle p {
+    font-size: 0.8rem;
   }
   div.search div.search__title img.icon-marker {
     width: 15px;
