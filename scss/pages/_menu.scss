@@ -152,7 +152,7 @@ header.header div.header__img img.header__logo {
               font-weight: bold;
               padding-left: 7px;
               padding-right: 30px;
-              animation: slide-right 0.4s ease-in forwards;
+              animation: slide-right 0.5s ease-in forwards;
             }
           }
           
@@ -183,7 +183,7 @@ header.header div.header__img img.header__logo {
           }&:hover .item__price {
             padding-right: 30px;
             transition: 0.5s ease;
-            animation: slide-left 0.4s ease-in forwards;
+            animation: slide-left 0.5s ease-in forwards;
 
           }&:hover .valid__check {
             display: flex;

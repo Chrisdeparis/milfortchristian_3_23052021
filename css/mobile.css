@@ -801,7 +801,7 @@ header.header div.header__img img.header__logo {
   font-weight: bold;
   padding-left: 7px;
   padding-right: 30px;
-  animation: slide-right 0.4s ease-in forwards;
+  animation: slide-right 0.5s ease-in forwards;
 }
 
 .menu__select .menu__section .menu__grid .item__card .valid__check {
@@ -828,7 +828,7 @@ header.header div.header__img img.header__logo {
 .menu__select .menu__section .menu__grid .item__card:hover .item__price {
   padding-right: 30px;
   transition: 0.5s ease;
-  animation: slide-left 0.4s ease-in forwards;
+  animation: slide-left 0.5s ease-in forwards;
 }
 
 .menu__select .menu__section .menu__grid .item__card:hover .valid__check {
