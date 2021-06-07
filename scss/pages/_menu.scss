@@ -111,9 +111,13 @@ header.header div.header__img img.header__logo {
           
           transform-origin: left;
           transition: 0.5 ease;
+          &:hover .valid__check {
+            transition:width 4s;
+          }
+          
           
           .item__group { 
-            width: 100%;
+            width: 90%;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -151,7 +155,8 @@ header.header div.header__img img.header__logo {
           }
           
           .valid__check { 
-            display: none;
+            display: flex;
+
             position: absolute;
             background: #99e2d0;
             border-radius: 0 15px 15px 0;
@@ -159,7 +164,7 @@ header.header div.header__img img.header__logo {
             padding: 0 13px;
             height: 100%;
             width:60px;
-            
+            animation: slide-right 0.5s ease-in forwards;
             // display: flex;
             justify-content: center;
             
@@ -174,23 +179,39 @@ header.header div.header__img img.header__logo {
         
             }
           }&:hover .item__price {
-            padding-right: 70px;
+            padding-right: 30px;
             transition: 0.5s ease;
           }&:hover .valid__check {
             display: flex;
             justify-content: center;
             align-items: center;
             animation: slide-left 0.5s ease-in forwards;
-            // 
+            
             transform-origin: right;
             
+            
           }
+        }
+        .item__card .valid__check {
+          transition: width 0.4s;
+          transition: width 0.4s;
+          transition-property: width;
+          transition-duration: 0.4s;
+          transition-timing-function: ease;
+          transition-delay: 0s;
+          width: 60px;
+          max-width: none;
+          min-width: none;
+          height: 70px;
+          max-height: none;
+          min-height: none;
         }
     }
 
     .menu__item {
       overflow-x: hidden;
-      
+      transition:width 4s;
+     
       .item__title {
         font-size: 1rem;
         text-transform: uppercase;
@@ -302,11 +323,13 @@ header.header div.header__img img.header__logo {
   }
 }
 
-@keyframes slideRight {
+@keyframes slide-right {
   0% {
-    transform: translate3d(-100%, 0, 0); }
+    transform: none;
+     }
   100% {
-    transform: none; } }
+    transform: translate3d(100%, 0, 0);
+     } }
 
 
 @keyframes opacity {
