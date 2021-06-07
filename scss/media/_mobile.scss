@@ -16,12 +16,15 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        gap: 30px 30px;
+        gap: 0px;
         grid-template-areas:
             "."
             "."
             ".";
+        grid-template-rows: repeat(3, minmax(75px, auto));
     }
+
+    
 
     footer ul.grid-footer {
         display: flex;
