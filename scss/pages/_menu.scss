@@ -4,6 +4,7 @@ header.header div.header__img img.header__logo {
 
 .menu {
   background: $grey2;
+  margin-bottom: -40px;
   
   .menu__img.bg-french, .menu__img.bg-palette, .menu__img.bg-note, .menu__img.bg-delice {
     height:330px;
@@ -30,6 +31,7 @@ header.header div.header__img img.header__logo {
   position: relative;
     bottom: 40px;
     padding-top: 20px;
+    
   
   .menu__section {
     width: 90%;
@@ -47,6 +49,7 @@ header.header div.header__img img.header__logo {
        
         font-size: 1.7rem;
         font-family: "Shrikhand", cursive;
+        animation:reverse 1s;
       }
 
       .menu__heart {
@@ -92,6 +95,7 @@ header.header div.header__img img.header__logo {
         "plats"
         "desserts";
       grid-template-rows: repeat(3, minmax(90px, auto));
+      
 
         .item__card { 
           position: relative;
@@ -105,11 +109,16 @@ header.header div.header__img img.header__logo {
           border-radius: 15px;
           background-color: white;
           
+          transform-origin: left;
+          transition: 0.5 ease;
+          
           .item__group { 
             width: 100%;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            
+
             .item__menu { 
               margin-left: 20px;
               white-space: nowrap;
@@ -132,6 +141,7 @@ header.header div.header__img img.header__logo {
                 }
               }
             }
+            
         
             .item__price { 
               padding: 20px 0px 1px;
@@ -139,7 +149,7 @@ header.header div.header__img img.header__logo {
               padding-left: 7px;
             }
           }
-        
+          
           .valid__check { 
             display: none;
             position: absolute;
@@ -150,12 +160,17 @@ header.header div.header__img img.header__logo {
             height: 100%;
             width:60px;
             
+            // display: flex;
+            justify-content: center;
+            
+            
+            
             img { 
               width: 20px;
               font-size: 30px;
               color: white;
               transform: rotate(180deg);
-              animation: rotate 0.5s both;
+              animation: rotate 1.1s both;
         
             }
           }&:hover .item__price {
@@ -165,9 +180,10 @@ header.header div.header__img img.header__logo {
             display: flex;
             justify-content: center;
             align-items: center;
-            // animation: slide-left 0.5s ease;
-            animation: slide-right 0.5s ease;
+            animation: slide-left 0.5s ease-in forwards;
+            // 
             transform-origin: right;
+            
           }
         }
     }
@@ -181,6 +197,7 @@ header.header div.header__img img.header__logo {
         font-weight: 300;
         margin-top: 30px;
         margin-bottom: 7px;
+        
       }
 
       .item__underline {
@@ -277,23 +294,19 @@ header.header div.header__img img.header__logo {
 
 @keyframes slide-left {
   0% {
-    transform: scaleX(0);
+    transform: translate3d(100%, 0, 0);
   }
   
   100% {
-    transform: scaleX(-50px);
+    transform: none;
   }
 }
 
-@keyframes slide-right {
+@keyframes slideRight {
   0% {
-    transform: scaleX(0);
-  }
-  
+    transform: translate3d(-100%, 0, 0); }
   100% {
-    transform: scaleX(50px);
-  }
-}
+    transform: none; } }
 
 
 @keyframes opacity {
@@ -302,6 +315,17 @@ header.header div.header__img img.header__logo {
   }
   100% {
     opacity: 1;
+  }
+}
+@keyframes reverse {
+  from {
+    transform: translate3d(-100%, 0, 0);
+    
+  }
+  to {
+      
+    transform: none;
+      
   }
 }
 
