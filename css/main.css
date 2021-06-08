@@ -865,7 +865,6 @@ header.header div.header__img img.header__logo {
 }
 
 .menu__select .menu__section .menu__item {
-  overflow-x: hidden;
   transition: width 4s;
 }
 
@@ -891,7 +890,8 @@ header.header div.header__img img.header__logo {
   margin-bottom: 10px;
   margin-right: 20px;
   cursor: pointer;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 2px;
+  border: #f4f4f4 0px solid;
+  box-shadow: 1px 1px 15px #cecccc;
 }
 
 .menu__select .menu__section .menu__item .item__card .item__desc {
