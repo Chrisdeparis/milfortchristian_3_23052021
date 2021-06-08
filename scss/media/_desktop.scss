@@ -4,6 +4,7 @@
 }
 
 @media only screen and (min-width: 768px) {
+  div.operation p.operation__title {text-align: center;}
   div.search div.search__title img.icon-marker {
     width: 15px;
     position: relative;
@@ -93,5 +94,10 @@
     grid-template-rows: 1fr 1fr;
     grid-template-areas: ". .";
 
+  }
+
+  div.operation div.operation__group {
+    display: grid;
+    
   }
 }
