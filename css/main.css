@@ -237,7 +237,7 @@ div.search div.search__title {
   align-items: center;
 }
 div.search div.search__title img {
-  width: 5%;
+  width: 15px;
   color: #353535;
   margin-right: 10px;
 }
@@ -1027,6 +1027,7 @@ header.header div.header__img img.header__logo {
 @media only screen and (max-width: 768px) {
   .container {
     width: 100%;
+    overflow: hidden;
   }
 
   .menu__select .menu__section .menu__grid .item__card .item__group .item__menu .desc__subtitle p {
