@@ -94,7 +94,18 @@ div.search {
       color: #353535;
       margin-right: 10px;
     }
+    input { 
+      background: $grey;
+      border:0;
+      color: $footer;
+      outline:none;
+      &::placeholder {
+        color: $footer;
+      }
+    }
+    
   }
+
 }
 div.menu {
   div.menu__img {
