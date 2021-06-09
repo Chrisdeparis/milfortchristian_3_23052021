@@ -362,9 +362,11 @@ div.restaurants {
             height: 190px;
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
-            
+            transition: .2s ease-in-out;
+            transform:scale(1);
+      
             &:hover {
-              transform: scale(1.04);
+              transform: scale(1.07);
               transition: all 0.2s ease-in-out;
             }
             
