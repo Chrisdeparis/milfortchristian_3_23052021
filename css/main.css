@@ -662,6 +662,7 @@ header.header div.header__img img.header__logo {
   align-items: flex-end;
   background-size: cover;
   background-position: center;
+  width: 100%;
 }
 
 .menu .menu__img.bg-palette {
@@ -672,6 +673,7 @@ header.header div.header__img img.header__logo {
   align-items: flex-end;
   background-size: cover;
   background-position: center;
+  width: 100%;
 }
 
 .menu .menu__img.bg-note {
@@ -682,6 +684,7 @@ header.header div.header__img img.header__logo {
   align-items: flex-end;
   background-size: cover;
   background-position: center;
+  width: 100%;
 }
 
 .menu .menu__img.bg-delice {
@@ -692,6 +695,7 @@ header.header div.header__img img.header__logo {
   align-items: flex-end;
   background-size: cover;
   background-position: center;
+  width: 100%;
 }
 
 .menu .menu__img .border {
@@ -872,8 +876,6 @@ header.header div.header__img img.header__logo {
 }
 
 .menu__select .menu__section .menu__grid .item__card .valid__check {
-  transition: width 0.4s;
-  transition: width 0.4s;
   transition-property: width;
   transition-duration: 0.4s;
   transition-timing-function: ease;
@@ -1094,6 +1096,9 @@ header.header div.header__img img.header__logo {
     flex-direction: row !important;
     justify-content: space-evenly;
   }
+  div.item__menu .desc__subtitle {
+    font-size: 0.9rem;
+  }
   div.restaurants div.section {
     width: 80% !important;
   }
@@ -1252,11 +1257,13 @@ p {
     background: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
     background-size: cover;
     background-position: center;
+    width: 100%;
   }
   div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.note {
     background: url("../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
     background-size: cover;
     background-position: center;
+    width: 100%;
   }
   div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.french {
     display: flex;
@@ -1264,6 +1271,7 @@ p {
     background: url("../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
     background-size: cover;
     background-position: center;
+    width: 100%;
   }
   div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.delice {
     display: flex;
@@ -1271,6 +1279,7 @@ p {
     background: url("../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
     background-size: cover;
     background-position: center;
+    width: 100%;
   }
   div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content {
     display: flex;

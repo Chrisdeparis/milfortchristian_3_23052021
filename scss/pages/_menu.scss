@@ -15,6 +15,7 @@ header.header div.header__img img.header__logo {
       align-items: flex-end;
       background-size: cover;
       background-position: center;
+      width: 100%;
     }
     &.bg-palette {
       background: url(../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
@@ -24,6 +25,8 @@ header.header div.header__img img.header__logo {
       align-items: flex-end;
       background-size: cover;
       background-position: center;
+      width: 100%;
+
     }
     &.bg-note {
       background: url("../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
@@ -33,6 +36,8 @@ header.header div.header__img img.header__logo {
       align-items: flex-end;
       background-size: cover;
       background-position: center;
+      width: 100%;
+
     }
     &.bg-delice {
       background: url("../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
@@ -42,6 +47,8 @@ header.header div.header__img img.header__logo {
       align-items: flex-end;
       background-size: cover;
       background-position: center;
+      width: 100%;
+
     }
 
     
@@ -237,8 +244,8 @@ header.header div.header__img img.header__logo {
           }
         }
         .item__card .valid__check {
-          transition: width 0.4s;
-          transition: width 0.4s;
+          // transition: width 0.4s;
+          // transition: width 0.4s;
           transition-property: width;
           transition-duration: 0.4s;
           transition-timing-function: ease;
