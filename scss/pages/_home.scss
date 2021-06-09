@@ -187,33 +187,10 @@ div.search {
               align-self: center;
             }
           }
-          &:hover {
-          }
+          
         }
       }
-      div.order {
-        width: 50%;
-        margin: 30px auto;
-        div.btn {
-          border: 0;
-          padding: 20px 25px;
-          background: rgb(225, 111, 218);
-          background: linear-gradient(
-            180deg,
-            rgba(225, 111, 218, 1) 0%,
-            rgba(196, 102, 219, 1) 50%,
-            rgba(161, 91, 220, 1) 100%
-          );
-          color: white;
-          margin-top: 30px;
-          text-align: center;
-          font-size: 1rem;
-          font-family: "Roboto", sans-serif;
-          border-radius: 35px;
-          box-shadow: $box-shadow-btn;
-          cursor: pointer;
-        }
-      }
+      
     }
   }
 
@@ -278,7 +255,7 @@ div.operation {
       &--bg:hover {
         
         background: lighten($primary, 30%);
-        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; 
+        box-shadow: $shadow-hover-choice 
         svg {
           color: $primary;
         }

@@ -375,26 +375,6 @@ div.menu__select div.section div.menu__item div.item__card .selected__dish i {
   align-self: center;
 }
 
-div.menu__select div.section div.order {
-  width: 50%;
-  margin: 30px auto;
-}
-
-div.menu__select div.section div.order div.btn {
-  border: 0;
-  padding: 20px 25px;
-  background: #e16fda;
-  background: linear-gradient(180deg, #e16fda 0%, #c466db 50%, #a15bdc 100%);
-  color: white;
-  margin-top: 30px;
-  text-align: center;
-  font-size: 1rem;
-  font-family: "Roboto", sans-serif;
-  border-radius: 35px;
-  box-shadow: 1px 5px 8px -6px #000000;
-  cursor: pointer;
-}
-
 div.explorer {
   margin: 0 auto;
   background: #f6f6f6;
@@ -462,11 +442,8 @@ div.operation div.operation__group .choice {
 
 div.operation div.operation__group .choice--bg:hover {
   background: #e4d5f6;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-}
-
-div.operation div.operation__group .choice--bg:hover svg {
-  color: #9356DC;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px svg;
+  box-shadow-color: #9356DC;
 }
 
 div.operation div.operation__group .choice i {
@@ -1080,7 +1057,7 @@ header.header div.header__img img.header__logo {
     width: 15px;
     position: relative;
     bottom: 5px;
-    right: 15px;
+    right: 13px;
   }
   header.header div.header__img img.header__logo {
     width: 165px;
@@ -1191,7 +1168,7 @@ p {
   div.search div.search__title img.icon-marker {
     position: relative;
     bottom: 5px;
-    right: 15px;
+    right: 13px;
   }
   div.restaurants {
     padding-top: 20px;
