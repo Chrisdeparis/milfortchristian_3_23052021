@@ -260,6 +260,7 @@ div.search div.search__title input {
   border: 0;
   color: #353535;
   outline: none;
+  width: 112px;
 }
 
 div.search div.search__title input::placeholder {
