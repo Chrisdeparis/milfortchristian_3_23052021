@@ -272,7 +272,7 @@ div.operation {
       border-radius: 20px;
       margin-bottom: 30px;
       margin-left: 10px;
-      box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+      box-shadow: $shadow-choice;
       cursor: pointer;
 
       &--bg:hover {
@@ -342,7 +342,7 @@ div.restaurants {
           border-radius: 20px;
           display: flex;
           flex-direction: column;
-          box-shadow: rgba(149, 157, 165, 0.15) 0px 8px 24px;
+          box-shadow: $shadow-restau;
           margin-bottom: 20px;
           overflow: hidden;
           div.card__img {

@@ -208,7 +208,7 @@ header.header div.header__img img.header__logo {
             display: flex;
 
             position: absolute;
-            background: #99e2d0;
+            background: $tertiary;
             border-radius: 0 15px 15px 0;
             right: 0px;
             padding: 0 13px;
@@ -298,14 +298,14 @@ header.header div.header__img img.header__logo {
           display: flex;
           align-self: flex-end;
           font-weight: bold;
-          color: #353535;
+          color: $footer;
           margin-right: 30px;
           padding: 20px 0px;
           font-size:0.8rem;
         }
         .selected__dish {
           
-          background: #99e2d0;
+          background: $tertiary;
           border-radius: 0 15px 15px 0;
           right: 0px;
           padding: 0px 15px;
