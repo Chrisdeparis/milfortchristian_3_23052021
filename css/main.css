@@ -265,6 +265,7 @@ div.search div.search__title input {
 
 div.search div.search__title input::placeholder {
   color: #353535;
+  opacity: 1;
 }
 
 div.menu div.menu__img {

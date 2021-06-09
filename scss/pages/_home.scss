@@ -102,11 +102,10 @@ div.search {
       width:112px;
       &::placeholder {
         color: $footer;
+        opacity: 1;
       }
     }
-    
   }
-
 }
 div.menu {
   div.menu__img {
