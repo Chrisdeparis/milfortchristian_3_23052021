@@ -322,26 +322,11 @@ header.header div.header__img img.header__logo {
     }
 
     .order {
-      .order__btn {
-        padding: 15px 25px;
-        border: 0;
-        background: #e370da;
-        background: linear-gradient(
-          1deg
-          , #9356DC 0%, #FF79DA 100%);
-        color: white;
-        text-align: center;
-        font-size: 0.9rem;
-        font-family: "Roboto", sans-serif;
-        border-radius: 35px;
-        box-shadow: $box-shadow-btn;
-        cursor: pointer;
-        width:184px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      button {
         margin: 40px auto;
-        &:hover {
-          background: linear-gradient(1deg, #9256dcde 0%, #ff79d9d5 100%);
-          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-        }
       }
     }
   }

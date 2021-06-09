@@ -1,4 +1,17 @@
 button {
     cursor:pointer;
-    box-shadow: 1px 5px 8px -4px #000000;
+    border: 0;
+    padding: 15px 19px;
+    background: linear-gradient(1deg, #9356dc 0%, #ff79da 100%);
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    width: 219px;
+    font-family: "Roboto", sans-serif;
+    border-radius: 35px;
+    box-shadow: $box-shadow-btn;
+    &:hover {
+        background: linear-gradient(1deg, #9256dcde 0%, #ff79d9d5 100%);
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+      }
 }
