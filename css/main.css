@@ -268,6 +268,10 @@ div.search div.search__title input::placeholder {
   opacity: 1;
 }
 
+div.search div.search__title input:focus::placeholder {
+  color: transparent;
+}
+
 div.menu div.menu__img {
   height: 250px;
 }

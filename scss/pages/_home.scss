@@ -104,6 +104,9 @@ div.search {
         color: $footer;
         opacity: 1;
       }
+      &:focus::placeholder {
+        color:transparent;
+      }
     }
   }
 }
