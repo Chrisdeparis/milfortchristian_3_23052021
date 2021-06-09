@@ -10,6 +10,7 @@ button {
     font-family: "Roboto", sans-serif;
     border-radius: 35px;
     box-shadow: $box-shadow-btn;
+    outline:none;
     &:hover {
         background: linear-gradient(1deg, #9256dcde 0%, #ff79d9d5 100%);
         box-shadow: $box-shadow;
