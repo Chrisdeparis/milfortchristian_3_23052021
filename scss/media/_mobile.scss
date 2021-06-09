@@ -1,60 +1,198 @@
-@media only screen and (max-width:768px) {
-    .container {width:100%;overflow: hidden
-        ;}
-    .menu__select .menu__section .menu__grid .item__card .item__group .item__menu .desc__subtitle p {
-        font-size:0.8rem;
-    }
-    div.grid-restaurant {
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    overflow: hidden;
+  }
+  .menu__select
+    .menu__section
+    .menu__grid
+    .item__card
+    .item__group
+    .item__menu
+    .desc__subtitle
+    p {
+    font-size: 0.8rem;
+  }
+  div.grid-restaurant {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px 30px;
+    grid-template-areas:
+      "."
+      ".";
+  }
+  .menu .menu__select .menu__section .menu__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px;
+    grid-template-areas:
+      "."
+      "."
+      ".";
+    grid-template-rows: repeat(3, minmax(75px, auto));
+  }
+
+  footer ul.grid-footer {
+    display: flex;
+    flex-direction: column;
+  }
+  div.search div.search__title img {
+    width: 15px;
+  }
+  div.search div.search__title img.icon-marker {
+    position: relative;
+    bottom: 5px;
+    right: 15px;
+  }
+
+  div.restaurants {
+    padding-top: 20px;
+    background: $grey2;
+    div.restaurants__section {
+      width: 90%;
+      margin: 0 auto;
+      padding-bottom: 40px;
+      p.restaurant__title {
+        font-weight: 700;
+        font-size: 1.5rem;
+        margin-top: 30px;
+        margin-bottom: 20px;
+      }
+      div.grid__restaurant {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 30px 30px;
-        grid-template-areas:
-            "."
-            ".";
-    }
-    .menu .menu__select .menu__section .menu__grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
         gap: 0px;
-        grid-template-areas:
-            "."
-            "."
-            ".";
-        grid-template-rows: repeat(3, minmax(75px, auto));
-    }
+        a {
+          div.card {
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: rgba(149, 157, 165, 0.15) 0px 8px 24px;
+            margin-bottom: 20px;
+            overflow: hidden;
+            div.card__img {
+              display: flex;
+              justify-content: flex-end;
+              height: 190px;
+              border-top-left-radius: 20px;
+              border-top-right-radius: 20px;
 
-    
+              &:hover {
+                transform: scale(1.04);
+                transition: all 0.2s ease-in-out;
+              }
 
-    footer ul.grid-footer {
-        display: flex;
-        flex-direction: column;
+              div.card__new {
+                margin-top: 15px;
+                width: fit-content;
+                padding: 5px 10px;
+                font-size: 0.9rem;
+                background: $tertiary;
+                height: fit-content;
+                height: 31px;
+                margin-right: 15px;
+                border-radius: 2px;
+                color: rgb(0, 135, 102);
+                &:hover {
+                  background: #99e2d0dc;
+                }
+              }
+              &.palette {
+                background: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+                background-size: cover;
+                background-position: center;
+                // width: 768px;
+              }
+              &.note {
+                background: url("../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+                background-size: cover;
+                background-position: center;
+                // width: 768px;
+              }
+              &.french {
+                display: flex;
+                justify-content: flex-end;
+                background: url("../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+                background-size: cover;
+                background-position: center;
+                // width: 768px;
+              }
+              &.delice {
+                display: flex;
+                justify-content: flex-end;
+                background: url("../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+                background-size: cover;
+                background-position: center;
+                // width: 768px;
+              }
+            }
+            div.card__content {
+              display: flex;
+              justify-content: space-between;
+              padding-bottom: 20px;
+              div.card__title p {
+                margin: 20px 20px 0;
+                font-weight: bold;
+                font-size: 1.2rem;
+
+                &.card__district {
+                  margin: 0px 20px;
+                  font-weight: 300;
+                }
+              }
+              div.card__heart {
+                display: flex;
+                font-size: 1.8rem;
+                margin-right: 25px;
+                align-self: center;
+
+                svg.heart {
+                  width: 30px;
+                  stroke-width: 20;
+                  stroke: black;
+                  fill: white;
+                  cursor: pointer;
+                }
+                svg.heart-empty {
+                  position: relative;
+                }
+                svg.heart-empty:hover {
+                  opacity: 0;
+                  transition: 0.5s;
+                }
+                svg.heart-full {
+                  position: absolute;
+                  fill: url(#text-fill);
+                  stroke: none;
+                }
+              }
+            }
+          }
+        }
+      }
     }
-    div.search div.search__title img {width: 15px;}
-    div.search div.search__title img.icon-marker {position: relative;
-        bottom: 5px;
-        right: 15px;}
+  }
 }
 
 @media only screen and (min-width: 769px) {
-    div.restaurants {
-        div.section.operation {
-            div.group {
-                display: flex;
-                flex-direction: row;
-            }
-            
-            div.grid-restaurant {
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                grid-template-rows: 1fr 1fr;
-                gap: 30px 30px;
-                grid-template-areas:
-                    ". ."
-                    ". .";
-            }
-        }
-        
+  div.restaurants {
+    div.section.operation {
+      div.group {
+        display: flex;
+        flex-direction: row;
+      }
+
+      div.grid-restaurant {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 30px 30px;
+        grid-template-areas:
+          ". ."
+          ". .";
+      }
     }
+  }
 }

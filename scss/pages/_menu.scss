@@ -6,11 +6,45 @@ header.header div.header__img img.header__logo {
   background: $grey2;
   margin-bottom: -40px;
   
-  .menu__img.bg-french, .menu__img.bg-palette, .menu__img.bg-note, .menu__img.bg-delice {
-    height:330px;
-    display: flex;
-    justify-content: end;
-    align-items: flex-end;
+  .menu__img {
+    &.bg-french{
+      background: url(../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+      height:330px;
+      display: flex;
+      justify-content: end;
+      align-items: flex-end;
+      background-size: cover;
+      background-position: center;
+    }
+    &.bg-palette {
+      background: url(../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+      height:330px;
+      display: flex;
+      justify-content: end;
+      align-items: flex-end;
+      background-size: cover;
+      background-position: center;
+    }
+    &.bg-note {
+      background: url("../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+      height:330px;
+      display: flex;
+      justify-content: end;
+      align-items: flex-end;
+      background-size: cover;
+      background-position: center;
+    }
+    &.bg-delice {
+      background: url("../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+      height:330px;
+      display: flex;
+      justify-content: end;
+      align-items: flex-end;
+      background-size: cover;
+      background-position: center;
+    }
+
+    
     .border {
       height: 40px;
       background: $grey2;
@@ -21,6 +55,7 @@ header.header div.header__img img.header__logo {
       border-top-right-radius: 30px;
     }
   }
+
 }
 .menu__select {
   background: $grey2;

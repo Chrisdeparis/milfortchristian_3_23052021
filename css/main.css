@@ -272,65 +272,37 @@ div.search div.search__title input:focus::placeholder {
   color: transparent;
 }
 
-div.menu div.menu__img {
-  height: 250px;
-}
-
-div.menu div.menu__img.bg-palette {
-  background: url("../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-div.menu div.menu__img.bg-delice {
-  background: url("../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-div.menu div.menu__img.bg-french {
-  background: url("../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-div.menu div.menu__img.bg-note {
-  background: url("../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-div.menu div.menu__select {
+div.menu__select {
   background: #f6f6f6;
 }
 
-div.menu div.menu__select div.section {
+div.menu__select div.section {
   width: 90%;
   margin: 0 auto;
   padding-bottom: 40px;
 }
 
-div.menu div.menu__select div.section div.menu__top {
+div.menu__select div.section div.menu__top {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-div.menu div.menu__select div.section div.menu__top h1.menu__title {
+div.menu__select div.section div.menu__top h1.menu__title {
   margin-top: 30px;
   font-size: 2rem;
 }
 
-div.menu div.menu__select div.section div.menu__top div.menu__heart {
+div.menu__select div.section div.menu__top div.menu__heart {
   font-size: 2rem;
 }
 
-div.menu div.menu__select div.section div.menu__top div.menu__heart i {
+div.menu__select div.section div.menu__top div.menu__heart i {
   position: relative;
   top: 13px;
 }
 
-div.menu div.menu__select div.section div.menu__item p.item__title {
+div.menu__select div.section div.menu__item p.item__title {
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: 300;
@@ -338,14 +310,14 @@ div.menu div.menu__select div.section div.menu__item p.item__title {
   margin-bottom: 7px;
 }
 
-div.menu div.menu__select div.section div.menu__item div.item__underline {
+div.menu__select div.section div.menu__item div.item__underline {
   width: 30px;
   height: 3px;
   background: #99E2D0;
   margin-bottom: 20px;
 }
 
-div.menu div.menu__select div.section div.menu__item div.item__card {
+div.menu__select div.section div.menu__item div.item__card {
   display: flex;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border-radius: 20px;
@@ -354,17 +326,17 @@ div.menu div.menu__select div.section div.menu__item div.item__card {
   cursor: pointer;
 }
 
-div.menu div.menu__select div.section div.menu__item div.item__card .item__desc {
+div.menu__select div.section div.menu__item div.item__card .item__desc {
   font-weight: 300;
   padding: 20px 10px;
 }
 
-div.menu div.menu__select div.section div.menu__item div.item__card .item__desc p.desc__title {
+div.menu__select div.section div.menu__item div.item__card .item__desc p.desc__title {
   font-weight: bold;
   margin-bottom: 12px;
 }
 
-div.menu div.menu__select div.section div.menu__item div.item__card .item__price {
+div.menu__select div.section div.menu__item div.item__card .item__price {
   display: flex;
   align-self: flex-end;
   font-weight: bold;
@@ -373,7 +345,7 @@ div.menu div.menu__select div.section div.menu__item div.item__card .item__price
   padding: 20px 0px;
 }
 
-div.menu div.menu__select div.section div.menu__item div.item__card .selected__dish {
+div.menu__select div.section div.menu__item div.item__card .selected__dish {
   background: #99E2D0;
   display: flex;
   width: 60px;
@@ -382,18 +354,18 @@ div.menu div.menu__select div.section div.menu__item div.item__card .selected__d
   border-bottom-right-radius: 20px;
 }
 
-div.menu div.menu__select div.section div.menu__item div.item__card .selected__dish i {
+div.menu__select div.section div.menu__item div.item__card .selected__dish i {
   font-size: 1.6rem;
   color: white;
   align-self: center;
 }
 
-div.menu div.menu__select div.section div.order {
+div.menu__select div.section div.order {
   width: 50%;
   margin: 30px auto;
 }
 
-div.menu div.menu__select div.section div.order div.btn {
+div.menu__select div.section div.order div.btn {
   border: 0;
   padding: 20px 25px;
   background: #e16fda;
@@ -682,14 +654,47 @@ header.header div.header__img img.header__logo {
   margin-bottom: -40px;
 }
 
-.menu .menu__img.bg-french, .menu .menu__img.bg-palette, .menu .menu__img.bg-note, .menu .menu__img.bg-delice {
+.menu .menu__img.bg-french {
+  background: url(../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
   height: 330px;
   display: flex;
   justify-content: end;
   align-items: flex-end;
+  background-size: cover;
+  background-position: center;
 }
 
-.menu .menu__img.bg-french .border, .menu .menu__img.bg-palette .border, .menu .menu__img.bg-note .border, .menu .menu__img.bg-delice .border {
+.menu .menu__img.bg-palette {
+  background: url(../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+  height: 330px;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+}
+
+.menu .menu__img.bg-note {
+  background: url("../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+  height: 330px;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+}
+
+.menu .menu__img.bg-delice {
+  background: url("../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+  height: 330px;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+}
+
+.menu .menu__img .border {
   height: 40px;
   background: #f6f6f6;
   display: flex;
@@ -1152,7 +1157,14 @@ header.header div.header__img img.header__logo {
     width: 100%;
     overflow: hidden;
   }
-  .menu__select .menu__section .menu__grid .item__card .item__group .item__menu .desc__subtitle p {
+  .menu__select
+.menu__section
+.menu__grid
+.item__card
+.item__group
+.item__menu
+.desc__subtitle
+p {
     font-size: 0.8rem;
   }
   div.grid-restaurant {
@@ -1181,6 +1193,123 @@ header.header div.header__img img.header__logo {
     position: relative;
     bottom: 5px;
     right: 15px;
+  }
+  div.restaurants {
+    padding-top: 20px;
+    background: #f6f6f6;
+  }
+  div.restaurants div.restaurants__section {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+  }
+  div.restaurants div.restaurants__section p.restaurant__title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  div.restaurants div.restaurants__section div.grid__restaurant {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+  div.restaurants div.restaurants__section div.grid__restaurant a div.card {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(149, 157, 165, 0.15) 0px 8px 24px;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img {
+    display: flex;
+    justify-content: flex-end;
+    height: 190px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img:hover {
+    transform: scale(1.04);
+    transition: all 0.2s ease-in-out;
+  }
+  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img div.card__new {
+    margin-top: 15px;
+    width: fit-content;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    background: #99E2D0;
+    height: fit-content;
+    height: 31px;
+    margin-right: 15px;
+    border-radius: 2px;
+    color: #008766;
+  }
+  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img div.card__new:hover {
+    background: #99e2d0dc;
+  }
+  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.palette {
+    background: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.note {
+    background: url("../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.french {
+    display: flex;
+    justify-content: flex-end;
+    background: url("../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.delice {
+    display: flex;
+    justify-content: flex-end;
+    background: url("../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+  }
+  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__title p {
+    margin: 20px 20px 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__title p.card__district {
+    margin: 0px 20px;
+    font-weight: 300;
+  }
+  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart {
+    display: flex;
+    font-size: 1.8rem;
+    margin-right: 25px;
+    align-self: center;
+  }
+  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart svg.heart {
+    width: 30px;
+    stroke-width: 20;
+    stroke: black;
+    fill: white;
+    cursor: pointer;
+  }
+  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart svg.heart-empty {
+    position: relative;
+  }
+  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart svg.heart-empty:hover {
+    opacity: 0;
+    transition: 0.5s;
+  }
+  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart svg.heart-full {
+    position: absolute;
+    fill: url(#text-fill);
+    stroke: none;
   }
 }
 
