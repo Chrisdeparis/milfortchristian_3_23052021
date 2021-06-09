@@ -795,7 +795,7 @@ header.header div.header__img img.header__logo {
   border-radius: 15px;
   background-color: white;
   transform-origin: left;
-  transition: 0.5 ease;
+  transition: 0.5s ease;
 }
 
 .menu__select .menu__section .menu__grid .item__card:hover .valid__check {
@@ -883,11 +883,7 @@ header.header div.header__img img.header__logo {
   transition-timing-function: ease;
   transition-delay: 0s;
   width: 60px;
-  max-width: none;
-  min-width: none;
   height: 70px;
-  max-height: none;
-  min-height: none;
 }
 
 .menu__select .menu__section .menu__item .item__title {

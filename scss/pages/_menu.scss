@@ -152,7 +152,7 @@ header.header div.header__img img.header__logo {
           background-color: white;
           
           transform-origin: left;
-          transition: 0.5 ease;
+          transition: 0.5s ease;
           &:hover .valid__check {
             transition:width 4s;
           }
@@ -244,18 +244,12 @@ header.header div.header__img img.header__logo {
           }
         }
         .item__card .valid__check {
-          // transition: width 0.4s;
-          // transition: width 0.4s;
           transition-property: width;
           transition-duration: 0.4s;
           transition-timing-function: ease;
           transition-delay: 0s;
           width: 60px;
-          max-width: none;
-          min-width: none;
           height: 70px;
-          max-height: none;
-          min-height: none;
         }
     }
 
