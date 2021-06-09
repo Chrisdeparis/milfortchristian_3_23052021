@@ -958,6 +958,10 @@ header.header div.header__img img.header__logo {
   margin: 40px auto;
 }
 
+.menu__select .menu__section .order button a {
+  color: white;
+}
+
 @keyframes rotate {
   0% {
     transform: rotate(0);
