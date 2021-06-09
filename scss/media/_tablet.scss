@@ -16,10 +16,11 @@
         display: grid;
         grid-template-columns: 1fr!important;
         grid-template-rows: 1fr 1fr 1fr!important;
-        gap: 30px;
+        gap: 0px;
         grid-template-areas:
             "."
             "."
             "."!important;
+        grid-template-rows: repeat(3, minmax(75px, auto))!important;
     }
 }
