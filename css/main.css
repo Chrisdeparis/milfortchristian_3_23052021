@@ -644,6 +644,11 @@ header.header div.header__img img.header__logo {
   background-size: cover;
   background-position: center;
   width: 100%;
+  opacity: 0.85;
+}
+
+.menu .menu__img.bg-french:hover {
+  opacity: 1;
 }
 
 .menu .menu__img.bg-palette {
@@ -655,6 +660,11 @@ header.header div.header__img img.header__logo {
   background-size: cover;
   background-position: center;
   width: 100%;
+  opacity: 0.85;
+}
+
+.menu .menu__img.bg-palette:hover {
+  opacity: 1;
 }
 
 .menu .menu__img.bg-note {
@@ -666,6 +676,11 @@ header.header div.header__img img.header__logo {
   background-size: cover;
   background-position: center;
   width: 100%;
+  opacity: 0.85;
+}
+
+.menu .menu__img.bg-note:hover {
+  opacity: 1;
 }
 
 .menu .menu__img.bg-delice {
@@ -677,6 +692,11 @@ header.header div.header__img img.header__logo {
   background-size: cover;
   background-position: center;
   width: 100%;
+  opacity: 0.85;
+}
+
+.menu .menu__img.bg-delice:hover {
+  opacity: 1;
 }
 
 .menu .menu__img .border {
