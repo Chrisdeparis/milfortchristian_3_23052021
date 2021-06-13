@@ -4,8 +4,8 @@
 }
 
 @media only screen and (min-width: 768px) {
-  div.operation p.operation__title {text-align: center;}
-  div.search div.search__title img.icon-marker {
+  section.operation p.operation__title {text-align: center;}
+  section.search div.search__title img.icon-marker {
     width: 15px;
     position: relative;
     bottom: 5px;
@@ -14,7 +14,7 @@
   header.header div.header__img img.header__logo {
     width: 165px;
   }
-  div.operation div.operation__group {
+  section.operation div.operation__group {
     display: flex;
     flex-direction: row !important;
     justify-content: space-evenly;
@@ -23,10 +23,10 @@
     font-size:0.9rem;
   }
 
-  div.restaurants div.section {
+  section.restaurants div.section {
     width: 80% !important;
   }
-  div.container div.restaurants div.restaurants__section div.grid__restaurant {
+  div.container section.restaurants div.restaurants__section div.grid__restaurant {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -64,7 +64,7 @@
     }
   }
 
-  div.explorer div.explorer__link div.explorer__btn:hover {
+  section.explorer div.explorer__link div.explorer__btn:hover {
     background: linear-gradient(1deg, #9256dcde 0%, #ff79d9d5 100%);
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
@@ -91,7 +91,7 @@
 
 
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
-  div.container div.menu div.menu__select .menu__section div.menu__grid {
+  div.container section.menu div.menu__select .menu__section div.menu__grid {
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -99,7 +99,7 @@
 
   }
 
-  div.operation div.operation__group {
+  section.operation div.operation__group {
     display: grid;
     
   }

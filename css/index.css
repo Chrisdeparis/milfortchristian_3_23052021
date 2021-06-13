@@ -1053,7 +1053,7 @@ header.header div.header__img img.header__logo {
     display: flex;
     flex-direction: row;
   }
-  div.container div.menu div.menu__select .menu__section div.menu__grid {
+  div.container section.menu div.menu__select .menu__section div.menu__grid {
     display: grid;
     grid-template-columns: 1fr !important;
     grid-template-rows: 1fr 1fr 1fr !important;
@@ -1069,10 +1069,10 @@ header.header div.header__img img.header__logo {
 }
 
 @media only screen and (min-width: 768px) {
-  div.operation p.operation__title {
+  section.operation p.operation__title {
     text-align: center;
   }
-  div.search div.search__title img.icon-marker {
+  section.search div.search__title img.icon-marker {
     width: 15px;
     position: relative;
     bottom: 5px;
@@ -1081,7 +1081,7 @@ header.header div.header__img img.header__logo {
   header.header div.header__img img.header__logo {
     width: 165px;
   }
-  div.operation div.operation__group {
+  section.operation div.operation__group {
     display: flex;
     flex-direction: row !important;
     justify-content: space-evenly;
@@ -1089,10 +1089,10 @@ header.header div.header__img img.header__logo {
   div.item__menu .desc__subtitle {
     font-size: 0.9rem;
   }
-  div.restaurants div.section {
+  section.restaurants div.section {
     width: 80% !important;
   }
-  div.container div.restaurants div.restaurants__section div.grid__restaurant {
+  div.container section.restaurants div.restaurants__section div.grid__restaurant {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -1122,7 +1122,7 @@ header.header div.header__img img.header__logo {
     width: 110px;
     margin-bottom: 10px;
   }
-  div.explorer div.explorer__link div.explorer__btn:hover {
+  section.explorer div.explorer__link div.explorer__btn:hover {
     background: linear-gradient(1deg, #9256dcde 0%, #ff79d9d5 100%);
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
@@ -1136,13 +1136,13 @@ header.header div.header__img img.header__logo {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
-  div.container div.menu div.menu__select .menu__section div.menu__grid {
+  div.container section.menu div.menu__select .menu__section div.menu__grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: ". .";
   }
-  div.operation div.operation__group {
+  section.operation div.operation__group {
     display: grid;
   }
 }
@@ -1181,35 +1181,35 @@ p {
     display: flex;
     flex-direction: column;
   }
-  div.search div.search__title img {
+  section.search div.search__title img {
     width: 15px;
   }
-  div.search div.search__title img.icon-marker {
+  section.search div.search__title img.icon-marker {
     position: relative;
     bottom: 5px;
     right: 13px;
   }
-  div.restaurants {
+  section.restaurants {
     padding-top: 20px;
     background: #f6f6f6;
   }
-  div.restaurants div.restaurants__section {
+  section.restaurants div.restaurants__section {
     width: 90%;
     margin: 0 auto;
     padding-bottom: 40px;
   }
-  div.restaurants div.restaurants__section p.restaurant__title {
+  section.restaurants div.restaurants__section p.restaurant__title {
     font-weight: 700;
     font-size: 1.5rem;
     margin-top: 30px;
     margin-bottom: 20px;
   }
-  div.restaurants div.restaurants__section div.grid__restaurant {
+  section.restaurants div.restaurants__section div.grid__restaurant {
     display: grid;
     grid-template-columns: 1fr;
     gap: 0px;
   }
-  div.restaurants div.restaurants__section div.grid__restaurant a div.card {
+  section.restaurants div.restaurants__section div.grid__restaurant a div.card {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -1217,18 +1217,18 @@ p {
     margin-bottom: 20px;
     overflow: hidden;
   }
-  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img {
+  section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img {
     display: flex;
     justify-content: flex-end;
     height: 190px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
   }
-  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img:hover {
+  section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img:hover {
     transform: scale(1.04);
     transition: all 0.2s ease-in-out;
   }
-  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img div.card__new {
+  section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img div.card__new {
     margin-top: 15px;
     width: fit-content;
     padding: 5px 10px;
@@ -1240,22 +1240,22 @@ p {
     border-radius: 2px;
     color: #008766;
   }
-  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img div.card__new:hover {
+  section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img div.card__new:hover {
     background: #99e2d0dc;
   }
-  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.palette {
+  section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.palette {
     background: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
   }
-  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.note {
+  section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.note {
     background: url("../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
   }
-  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.french {
+  section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.french {
     display: flex;
     justify-content: flex-end;
     background: url("../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
@@ -1263,7 +1263,7 @@ p {
     background-position: center;
     width: 100%;
   }
-  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.delice {
+  section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.delice {
     display: flex;
     justify-content: flex-end;
     background: url("../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
@@ -1271,41 +1271,41 @@ p {
     background-position: center;
     width: 100%;
   }
-  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content {
+  section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content {
     display: flex;
     justify-content: space-between;
     padding-bottom: 20px;
   }
-  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__title p {
+  section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__title p {
     margin: 20px 20px 0;
     font-weight: bold;
     font-size: 1.2rem;
   }
-  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__title p.card__district {
+  section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__title p.card__district {
     margin: 0px 20px;
     font-weight: 300;
   }
-  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart {
+  section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart {
     display: flex;
     font-size: 1.8rem;
     margin-right: 25px;
     align-self: center;
   }
-  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart svg.heart {
+  section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart svg.heart {
     width: 30px;
     stroke-width: 20;
     stroke: black;
     fill: white;
     cursor: pointer;
   }
-  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart svg.heart-empty {
+  section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart svg.heart-empty {
     position: relative;
   }
-  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart svg.heart-empty:hover {
+  section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart svg.heart-empty:hover {
     opacity: 0;
     transition: 0.5s;
   }
-  div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart svg.heart-full {
+  section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart svg.heart-full {
     position: absolute;
     fill: url(#text-fill);
     stroke: none;
@@ -1313,11 +1313,11 @@ p {
 }
 
 @media only screen and (min-width: 769px) {
-  div.restaurants div.section.operation div.group {
+  section.restaurants div.section.operation div.group {
     display: flex;
     flex-direction: row;
   }
-  div.restaurants div.section.operation div.grid-restaurant {
+  section.restaurants div.section.operation div.grid-restaurant {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
