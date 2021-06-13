@@ -270,7 +270,7 @@ section.search div.search__title img {
   margin-right: 10px;
 }
 
-section.search div.search__title input {
+section.search div.search__title div {
   background: #eaeaea;
   border: 0;
   color: #353535;
@@ -278,12 +278,12 @@ section.search div.search__title input {
   width: 112px;
 }
 
-section.search div.search__title input::placeholder {
+section.search div.search__title div::placeholder {
   color: #353535;
   opacity: 1;
 }
 
-section.search div.search__title input:focus::placeholder {
+section.search div.search__title div:focus::placeholder {
   color: transparent;
 }
 
@@ -513,7 +513,7 @@ section.restaurants div.restaurants__section div.grid__restaurant {
   gap: 0px;
 }
 
-section.restaurants div.restaurants__section div.grid__restaurant a div.card {
+section.restaurants div.restaurants__section div.grid__restaurant a article.card {
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -522,7 +522,7 @@ section.restaurants div.restaurants__section div.grid__restaurant a div.card {
   overflow: hidden;
 }
 
-section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img {
+section.restaurants div.restaurants__section div.grid__restaurant a article.card div.card__img {
   display: flex;
   justify-content: flex-end;
   height: 190px;
@@ -532,12 +532,12 @@ section.restaurants div.restaurants__section div.grid__restaurant a div.card div
   transform: scale(1);
 }
 
-section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img:hover {
+section.restaurants div.restaurants__section div.grid__restaurant a article.card div.card__img:hover {
   transform: scale(1.07);
   transition: all 0.2s ease-in-out;
 }
 
-section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img div.card__new {
+section.restaurants div.restaurants__section div.grid__restaurant a article.card div.card__img div.card__new {
   margin-top: 15px;
   width: fit-content;
   padding: 5px 10px;
@@ -550,23 +550,23 @@ section.restaurants div.restaurants__section div.grid__restaurant a div.card div
   color: #008766;
 }
 
-section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img div.card__new:hover {
+section.restaurants div.restaurants__section div.grid__restaurant a article.card div.card__img div.card__new:hover {
   background: #99e2d0dc;
 }
 
-section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.palette {
+section.restaurants div.restaurants__section div.grid__restaurant a article.card div.card__img.palette {
   background: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
   background-size: cover;
   background-position: center;
 }
 
-section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.note {
+section.restaurants div.restaurants__section div.grid__restaurant a article.card div.card__img.note {
   background: url("../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
   background-size: cover;
   background-position: center;
 }
 
-section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.french {
+section.restaurants div.restaurants__section div.grid__restaurant a article.card div.card__img.french {
   display: flex;
   justify-content: flex-end;
   background: url("../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
@@ -574,7 +574,7 @@ section.restaurants div.restaurants__section div.grid__restaurant a div.card div
   background-position: center;
 }
 
-section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.delice {
+section.restaurants div.restaurants__section div.grid__restaurant a article.card div.card__img.delice {
   display: flex;
   justify-content: flex-end;
   background: url("../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
@@ -582,31 +582,31 @@ section.restaurants div.restaurants__section div.grid__restaurant a div.card div
   background-position: center;
 }
 
-section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content {
+section.restaurants div.restaurants__section div.grid__restaurant a article.card div.card__content {
   display: flex;
   justify-content: space-between;
   padding-bottom: 20px;
 }
 
-section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__title p {
+section.restaurants div.restaurants__section div.grid__restaurant a article.card div.card__content div.card__title p {
   margin: 20px 20px 0;
   font-weight: bold;
   font-size: 1.2rem;
 }
 
-section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__title p.card__district {
+section.restaurants div.restaurants__section div.grid__restaurant a article.card div.card__content div.card__title p.card__district {
   margin: 0px 20px;
   font-weight: 300;
 }
 
-section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart {
+section.restaurants div.restaurants__section div.grid__restaurant a article.card div.card__content div.card__heart {
   display: flex;
   font-size: 1.8rem;
   margin-right: 25px;
   align-self: center;
 }
 
-section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart svg.heart {
+section.restaurants div.restaurants__section div.grid__restaurant a article.card div.card__content div.card__heart svg.heart {
   width: 30px;
   stroke-width: 20;
   stroke: black;
@@ -614,16 +614,16 @@ section.restaurants div.restaurants__section div.grid__restaurant a div.card div
   cursor: pointer;
 }
 
-section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart svg.heart-empty {
+section.restaurants div.restaurants__section div.grid__restaurant a article.card div.card__content div.card__heart svg.heart-empty {
   position: relative;
 }
 
-section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart svg.heart-empty:hover {
+section.restaurants div.restaurants__section div.grid__restaurant a article.card div.card__content div.card__heart svg.heart-empty:hover {
   opacity: 0;
   transition: 0.5s;
 }
 
-section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart svg.heart-full {
+section.restaurants div.restaurants__section div.grid__restaurant a article.card div.card__content div.card__heart svg.heart-full {
   position: absolute;
   fill: url(#text-fill);
   stroke: none;

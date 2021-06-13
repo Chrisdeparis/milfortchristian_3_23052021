@@ -94,7 +94,7 @@ section.search {
       color: #353535;
       margin-right: 10px;
     }
-    input { 
+    div { 
       background: $grey;
       border:0;
       color: $footer;
@@ -315,7 +315,7 @@ section.restaurants {
       grid-template-columns: 1fr;
       gap: 0px;
       a {
-        div.card {
+        article.card {
           border-radius: 20px;
           display: flex;
           flex-direction: column;
