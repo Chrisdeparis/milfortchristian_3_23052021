@@ -172,7 +172,7 @@ header.header div.header__img img.header__logo {
           transform-origin: left;
           transition: 0.5s ease;
           &:hover .valid__check {
-            transition:width 4s;
+            // transition:width 4s;
           }
           &:hover .item__menu {
             width: 70%;
@@ -224,7 +224,6 @@ header.header div.header__img img.header__logo {
           
           .valid__check { 
             display: flex;
-
             position: absolute;
             background: $tertiary;
             border-radius: 0 15px 15px 0;

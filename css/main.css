@@ -79,7 +79,7 @@ div {
   font-family: 'Roboto', sans-serif;
 }
 
-button {
+div.explorer__btn, div.order__btn {
   cursor: pointer;
   border: 0;
   padding: 15px 19px;
@@ -94,7 +94,7 @@ button {
   outline: none;
 }
 
-button:hover {
+div.explorer__btn:hover, div.order__btn:hover {
   background: linear-gradient(1deg, #9256dcde 0%, #ff79d9d5 100%);
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
@@ -795,10 +795,6 @@ header.header div.header__img img.header__logo {
   background-color: white;
   transform-origin: left;
   transition: 0.5s ease;
-}
-
-.menu__select .menu__section .menu__grid .item__card:hover .valid__check {
-  transition: width 4s;
 }
 
 .menu__select .menu__section .menu__grid .item__card:hover .item__menu {
