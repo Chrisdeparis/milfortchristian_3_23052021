@@ -255,7 +255,7 @@ div.operation {
       &--bg:hover {
         
         background: lighten($primary, 30%);
-        box-shadow: $shadow-hover-choice 
+        box-shadow: $shadow-hover-choice; 
         svg {
           color: $primary;
         }
