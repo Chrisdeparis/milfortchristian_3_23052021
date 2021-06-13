@@ -74,7 +74,7 @@ div.lds-ripple.loading {
   }
 }
 
-div.search {
+section.search {
   div.search__title {
     margin-top: 5px;
     height: 50px;
@@ -195,7 +195,7 @@ div.search {
   }
 
 
-div.explorer {
+section.explorer {
   margin: 0 auto;
   background: $grey2;
   padding-top: 20px;
@@ -229,7 +229,7 @@ div.explorer {
     }
   }
 }
-div.operation {
+section.operation {
   width: 90%;
   margin: 0 auto;
   padding-bottom: 40px;
@@ -297,7 +297,7 @@ div.operation {
     }
   }
 }
-div.restaurants {
+section.restaurants {
   padding-top: 20px;
   background: $grey2;
   div.restaurants__section {

@@ -248,7 +248,7 @@ div.lds-ripple.loading {
   }
 }
 
-div.search div.search__title {
+section.search div.search__title {
   margin-top: 5px;
   height: 50px;
   border: 0;
@@ -264,13 +264,13 @@ div.search div.search__title {
   align-items: center;
 }
 
-div.search div.search__title img {
+section.search div.search__title img {
   width: 15px;
   color: #353535;
   margin-right: 10px;
 }
 
-div.search div.search__title input {
+section.search div.search__title input {
   background: #eaeaea;
   border: 0;
   color: #353535;
@@ -278,12 +278,12 @@ div.search div.search__title input {
   width: 112px;
 }
 
-div.search div.search__title input::placeholder {
+section.search div.search__title input::placeholder {
   color: #353535;
   opacity: 1;
 }
 
-div.search div.search__title input:focus::placeholder {
+section.search div.search__title input:focus::placeholder {
   color: transparent;
 }
 
@@ -375,14 +375,14 @@ div.menu__select div.section div.menu__item div.item__card .selected__dish i {
   align-self: center;
 }
 
-div.explorer {
+section.explorer {
   margin: 0 auto;
   background: #f6f6f6;
   padding-top: 20px;
   padding-bottom: 60px;
 }
 
-div.explorer h1.explorer__title {
+section.explorer h1.explorer__title {
   font-family: "Roboto", sans-serif;
   margin: 40px auto 10px;
   text-align: center;
@@ -392,7 +392,7 @@ div.explorer h1.explorer__title {
   line-height: 28px;
 }
 
-div.explorer p.explorer__desc {
+section.explorer p.explorer__desc {
   width: 74%;
   margin: 0 auto;
   text-align: center;
@@ -402,34 +402,34 @@ div.explorer p.explorer__desc {
   margin-bottom: 30px;
 }
 
-div.explorer div.explorer__link {
+section.explorer div.explorer__link {
   display: flex;
   justify-content: center;
 }
 
-div.explorer div.explorer__link button.explorer__btn a {
+section.explorer div.explorer__link button.explorer__btn a {
   color: white;
 }
 
-div.operation {
+section.operation {
   width: 90%;
   margin: 0 auto;
   padding-bottom: 40px;
 }
 
-div.operation p.operation__title {
+section.operation p.operation__title {
   font-weight: 700;
   font-size: 1.5rem;
   margin-top: 30px;
 }
 
-div.operation div.operation__group {
+section.operation div.operation__group {
   display: flex;
   flex-direction: column;
   margin-top: 30px;
 }
 
-div.operation div.operation__group .choice {
+section.operation div.operation__group .choice {
   display: flex;
   align-items: center;
   background: #f6f6f6;
@@ -440,37 +440,37 @@ div.operation div.operation__group .choice {
   cursor: pointer;
 }
 
-div.operation div.operation__group .choice--bg:hover {
+section.operation div.operation__group .choice--bg:hover {
   background: #e4d5f6;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
-div.operation div.operation__group .choice--bg:hover svg {
+section.operation div.operation__group .choice--bg:hover svg {
   color: #9356DC;
 }
 
-div.operation div.operation__group .choice i {
+section.operation div.operation__group .choice i {
   color: #7e7e7e;
   font-size: 1.3rem;
 }
 
-div.operation div.operation__group .choice svg {
+section.operation div.operation__group .choice svg {
   color: #7e7e7e;
 }
 
-div.operation div.operation__group .choice svg.restau {
+section.operation div.operation__group .choice svg.restau {
   width: 15px;
 }
 
-div.operation div.operation__group .choice svg.list {
+section.operation div.operation__group .choice svg.list {
   width: 20px;
 }
 
-div.operation div.operation__group .choice svg.store {
+section.operation div.operation__group .choice svg.store {
   width: 20px;
 }
 
-div.operation div.operation__group .choice div.number {
+section.operation div.operation__group .choice div.number {
   position: relative;
   right: 10px;
   background: #9356DC;
@@ -484,36 +484,36 @@ div.operation div.operation__group .choice div.number {
   margin-right: 10px;
 }
 
-div.operation div.operation__group .choice p {
+section.operation div.operation__group .choice p {
   padding: 25px;
   font-weight: 700;
 }
 
-div.restaurants {
+section.restaurants {
   padding-top: 20px;
   background: #f6f6f6;
 }
 
-div.restaurants div.restaurants__section {
+section.restaurants div.restaurants__section {
   width: 90%;
   margin: 0 auto;
   padding-bottom: 40px;
 }
 
-div.restaurants div.restaurants__section p.restaurant__title {
+section.restaurants div.restaurants__section p.restaurant__title {
   font-weight: 700;
   font-size: 1.5rem;
   margin-top: 30px;
   margin-bottom: 20px;
 }
 
-div.restaurants div.restaurants__section div.grid__restaurant {
+section.restaurants div.restaurants__section div.grid__restaurant {
   display: grid;
   grid-template-columns: 1fr;
   gap: 0px;
 }
 
-div.restaurants div.restaurants__section div.grid__restaurant a div.card {
+section.restaurants div.restaurants__section div.grid__restaurant a div.card {
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -522,7 +522,7 @@ div.restaurants div.restaurants__section div.grid__restaurant a div.card {
   overflow: hidden;
 }
 
-div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img {
+section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img {
   display: flex;
   justify-content: flex-end;
   height: 190px;
@@ -532,12 +532,12 @@ div.restaurants div.restaurants__section div.grid__restaurant a div.card div.car
   transform: scale(1);
 }
 
-div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img:hover {
+section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img:hover {
   transform: scale(1.07);
   transition: all 0.2s ease-in-out;
 }
 
-div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img div.card__new {
+section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img div.card__new {
   margin-top: 15px;
   width: fit-content;
   padding: 5px 10px;
@@ -550,23 +550,23 @@ div.restaurants div.restaurants__section div.grid__restaurant a div.card div.car
   color: #008766;
 }
 
-div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img div.card__new:hover {
+section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img div.card__new:hover {
   background: #99e2d0dc;
 }
 
-div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.palette {
+section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.palette {
   background: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
   background-size: cover;
   background-position: center;
 }
 
-div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.note {
+section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.note {
   background: url("../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
   background-size: cover;
   background-position: center;
 }
 
-div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.french {
+section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.french {
   display: flex;
   justify-content: flex-end;
   background: url("../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
@@ -574,7 +574,7 @@ div.restaurants div.restaurants__section div.grid__restaurant a div.card div.car
   background-position: center;
 }
 
-div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.delice {
+section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__img.delice {
   display: flex;
   justify-content: flex-end;
   background: url("../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
@@ -582,31 +582,31 @@ div.restaurants div.restaurants__section div.grid__restaurant a div.card div.car
   background-position: center;
 }
 
-div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content {
+section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content {
   display: flex;
   justify-content: space-between;
   padding-bottom: 20px;
 }
 
-div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__title p {
+section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__title p {
   margin: 20px 20px 0;
   font-weight: bold;
   font-size: 1.2rem;
 }
 
-div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__title p.card__district {
+section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__title p.card__district {
   margin: 0px 20px;
   font-weight: 300;
 }
 
-div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart {
+section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart {
   display: flex;
   font-size: 1.8rem;
   margin-right: 25px;
   align-self: center;
 }
 
-div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart svg.heart {
+section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart svg.heart {
   width: 30px;
   stroke-width: 20;
   stroke: black;
@@ -614,16 +614,16 @@ div.restaurants div.restaurants__section div.grid__restaurant a div.card div.car
   cursor: pointer;
 }
 
-div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart svg.heart-empty {
+section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart svg.heart-empty {
   position: relative;
 }
 
-div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart svg.heart-empty:hover {
+section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart svg.heart-empty:hover {
   opacity: 0;
   transition: 0.5s;
 }
 
-div.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart svg.heart-full {
+section.restaurants div.restaurants__section div.grid__restaurant a div.card div.card__content div.card__heart svg.heart-full {
   position: absolute;
   fill: url(#text-fill);
   stroke: none;
