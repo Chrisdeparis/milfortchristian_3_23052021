@@ -79,7 +79,7 @@ div {
   font-family: 'Roboto', sans-serif;
 }
 
-div.explorer__btn, div.order__btn {
+button {
   cursor: pointer;
   border: 0;
   padding: 15px 19px;
@@ -94,7 +94,7 @@ div.explorer__btn, div.order__btn {
   outline: none;
 }
 
-div.explorer__btn:hover, div.order__btn:hover {
+button:hover {
   background: linear-gradient(1deg, #9256dcde 0%, #ff79d9d5 100%);
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
