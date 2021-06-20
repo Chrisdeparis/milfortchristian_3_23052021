@@ -79,7 +79,7 @@ div {
   font-family: 'Roboto', sans-serif;
 }
 
-button {
+.explorer__btn, .order__btn {
   cursor: pointer;
   border: 0;
   padding: 15px 19px;
@@ -94,7 +94,11 @@ button {
   outline: none;
 }
 
-button:hover {
+.explorer__btn a, .order__btn a {
+  color: white;
+}
+
+.explorer__btn:hover, .order__btn:hover {
   background: linear-gradient(1deg, #9256dcde 0%, #ff79d9d5 100%);
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
@@ -270,6 +274,10 @@ section.search div.search__title img {
   margin-right: 10px;
 }
 
+section.search div.search__title h2 {
+  font-size: 1rem;
+}
+
 section.search div.search__title div {
   background: #eaeaea;
   border: 0;
@@ -417,7 +425,11 @@ section.operation {
   padding-bottom: 40px;
 }
 
-section.operation p.operation__title {
+section.operation h3 {
+  font-size: 1.5rem;
+}
+
+section.operation h3.operation__title {
   font-weight: 700;
   font-size: 1.5rem;
   margin-top: 30px;
@@ -500,7 +512,7 @@ section.restaurants div.restaurants__section {
   padding-bottom: 40px;
 }
 
-section.restaurants div.restaurants__section p.restaurant__title {
+section.restaurants div.restaurants__section h3.restaurant__title {
   font-weight: 700;
   font-size: 1.5rem;
   margin-top: 30px;
@@ -588,15 +600,19 @@ section.restaurants div.restaurants__section div.grid__restaurant a article.card
   padding-bottom: 20px;
 }
 
-section.restaurants div.restaurants__section div.grid__restaurant a article.card div.card__content div.card__title p {
+section.restaurants div.restaurants__section div.grid__restaurant a article.card div.card__content div.card__title h3 {
   margin: 20px 20px 0;
   font-weight: bold;
   font-size: 1.2rem;
 }
 
-section.restaurants div.restaurants__section div.grid__restaurant a article.card div.card__content div.card__title p.card__district {
+section.restaurants div.restaurants__section div.grid__restaurant a article.card div.card__content div.card__title h3.card__district {
   margin: 0px 20px;
   font-weight: 300;
+}
+
+section.restaurants div.restaurants__section div.grid__restaurant a article.card div.card__content div.card__title p {
+  margin-left: 20px;
 }
 
 section.restaurants div.restaurants__section div.grid__restaurant a article.card div.card__content div.card__heart {

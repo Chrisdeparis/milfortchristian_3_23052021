@@ -1,4 +1,4 @@
-button {
+.explorer__btn, .order__btn {
     cursor:pointer;
     border: 0;
     padding: 15px 19px;
@@ -11,6 +11,9 @@ button {
     border-radius: 35px;
     box-shadow: $box-shadow-btn;
     outline:none;
+    a {
+      color:white;
+    }
     &:hover {
         background: linear-gradient(1deg, #9256dcde 0%, #ff79d9d5 100%);
         box-shadow: $box-shadow;

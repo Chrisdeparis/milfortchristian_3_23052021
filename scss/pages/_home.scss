@@ -90,6 +90,9 @@ section.search {
       color: #353535;
       margin-right: 10px;
     }
+    h2 {
+      font-size:1rem;
+    }
     div { 
       background: $grey;
       border:0;
@@ -229,7 +232,10 @@ section.operation {
   width: 90%;
   margin: 0 auto;
   padding-bottom: 40px;
-  p.operation__title {
+  h3 {
+    font-size:1.5rem;
+  }
+  h3.operation__title {
     font-weight: 700;
     font-size: 1.5rem;
     margin-top: 30px;
@@ -300,7 +306,7 @@ section.restaurants {
     width: 90%;
     margin: 0 auto;
     padding-bottom: 40px;
-    p.restaurant__title {
+    h3.restaurant__title {
       font-weight: 700;
       font-size: 1.5rem;
       margin-top: 30px;
@@ -377,7 +383,7 @@ section.restaurants {
             display: flex;
             justify-content: space-between;
             padding-bottom: 20px;
-            div.card__title p {
+            div.card__title h3 {
               margin: 20px 20px 0;
               font-weight: bold;
               font-size: 1.2rem;
@@ -386,6 +392,9 @@ section.restaurants {
                 margin: 0px 20px;
                 font-weight: 300;
               }
+            }
+            div.card__title p {
+              margin-left: 20px;
             }
             div.card__heart {
               display: flex;
