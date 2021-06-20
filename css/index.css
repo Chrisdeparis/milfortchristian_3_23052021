@@ -1178,6 +1178,9 @@ header.header div.header__img img.header__logo {
 p {
     font-size: 0.8rem;
   }
+  div.order {
+    margin: 40px 0;
+  }
   div.grid-restaurant {
     display: grid;
     grid-template-columns: 1fr;
