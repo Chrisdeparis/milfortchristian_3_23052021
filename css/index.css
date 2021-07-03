@@ -1115,6 +1115,9 @@ header.header div.header__img img.header__logo {
     gap: 30px 30px;
     grid-template-areas: ". ." ". .";
   }
+  div.order {
+    margin: 40px;
+  }
   div.order div.order__btn {
     max-width: 30%;
   }
